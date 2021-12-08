@@ -1,7 +1,8 @@
 ﻿body {
     font-family: 'Rubik', sans-serif;
-    background-color:#eee;
+    background-color: #eee;
 }
+
 :root {
     --main-color: #335F8E;
     --second-color: #2C9FEC;
@@ -11,9 +12,11 @@
     --table-head-color: #e8f3ff;
     --table-border-color: #94c7ff;
 }
+
 .text-theme {
     color: var(--main-color);
 }
+
 #topbar {
     font-size: 0.9rem;
     position: fixed;
@@ -68,15 +71,16 @@
         #topbar .balance .link-account {
             font-size: 0.75rem;
         }
-.main-content{
-    margin-top:70px;
-    
+
+.main-content {
+    margin-top: 70px;
 }
+
 .content {
     background-color: #fff;
-    margin:15px;
-    border-radius:5px;
-    padding:15px;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 15px;
 }
 
 
@@ -457,16 +461,19 @@ table.fold-table {
     display: inline-block;
     margin-bottom: 15px;
 }
-#outertop img{
-    width:200px;
+
+#outertop img {
+    width: 200px;
 }
+
 #home-content {
     padding: 15px 0;
 }
+
     #home-content .main-card {
         padding: 15px;
-        background-color:#fff;
-        border-radius:10px;
+        background-color: #fff;
+        border-radius: 10px;
     }
 
 .form-control {
@@ -476,6 +483,7 @@ table.fold-table {
     border-radius: 0;
     box-shadow: none;
 }
+
     .form-control:focus {
         color: #495057;
         background-color: #fff;
@@ -483,6 +491,7 @@ table.fold-table {
         outline: 0;
         box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
     }
+
 .form-group {
     margin-bottom: 1rem;
 }
@@ -491,6 +500,7 @@ table.fold-table {
     background-color: #234160;
     border-color: #234160;
 }
+
 .upload-photo .btn-info {
     font-size: 12px;
     background: #234160;
@@ -500,6 +510,7 @@ table.fold-table {
     width: 120px;
     color: #fff;
 }
+
 button.dept_submit {
     font-size: 16px;
     text-transform: uppercase;
@@ -507,6 +518,7 @@ button.dept_submit {
     border: 1px solid #C4C4C4;
     border-radius: 5px;
 }
+
 .dept_submit .fa-times {
     background: #FE737C;
     color: #fff;
@@ -520,6 +532,7 @@ button.dept_submit {
     width: 20px;
     height: 20px;
 }
+
 .dept_submit .fa-sign-out-alt {
     background: #24BE9E;
     color: #fff;
@@ -635,10 +648,12 @@ button.dept_submit {
     text-align: center;
     display: block;
 }
+
 .submit-modal .modal-content {
     display: block;
     padding: 15px;
 }
+
 .submit-modal .modal-body {
     border: 2px solid #24be9e;
     border-radius: 8px;
@@ -657,6 +672,7 @@ button.dept_submit {
     position: relative;
     overflow: hidden;
 }
+
     .submit-modal .model-check .fa-check {
         width: 60px;
         height: 60px;
@@ -667,6 +683,7 @@ button.dept_submit {
         color: #fff;
         display: block;
     }
+
 .model-check::after {
     content: '';
     position: absolute;
@@ -676,6 +693,7 @@ button.dept_submit {
     top: 0;
     background: linear-gradient(to right, #00000000 0%,#00000000 50%,#00000014 50%,#00000014 100%);
 }
+
 .submit-modal h3 {
     font-size: 20px;
     font-weight: 600;
@@ -688,14 +706,16 @@ button.dept_submit {
 .eAuctionModal-sm .modal-content {
     border-radius: 13px;
 }
+
 .eAuctionModal-sm .eAc-ModHeader {
     background: #004C73;
     padding-bottom: 60px;
     color: #fff;
     border-radius: 10px;
     margin-bottom: -40px;
-    position:relative;
+    position: relative;
 }
+
     .eAuctionModal-sm .eAc-ModHeader .btn-close {
         font-size: 11px;
         position: absolute;
@@ -711,6 +731,7 @@ button.dept_submit {
         padding: 2px;
         text-align: center;
     }
+
 .greenCheck {
     color: #fff;
     border: 4px solid #fff;
@@ -724,21 +745,304 @@ button.dept_submit {
 }
 /* eAuctionModal-sm modal css end */
 
+/* make payment css start */
+.grassPayment_o {
+    /*box-shadow: 0px 0px 20px #0A4B6D1A;*/
+    border-radius: 7px;
+    /*background: #ffffff;*/
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#pay-head {
+    font-size: 0.85rem;
+    border-bottom: solid 1px #eee;
+    margin-bottom: 15px;
+}
+
+    #pay-head span {
+        color: #37597d;
+        font-weight: bold;
+    }
+
+#payment-tab .nav-item {
+    /*width: 50%;*/
+}
+
+.headerDetails table tbody tr td:first-child {
+    min-width: 70px;
+}
+
+#payment-tab .nav-link {
+    background: rgb(255,255,255);
+    background: linear-gradient( 180deg, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 100%);
+    color: #858585;
+    font-weight: bold;
+    border: solid 1px #ddd;
+    margin-left: 18px;
+    /*width: 268px;*/
+    padding: 10px 15px 10px 0;
+    text-align: center;
+    margin-right: 10px;
+}
+
+    #payment-tab .nav-link i {
+        border: solid 1px;
+        padding: 2px;
+        border-radius: 50%;
+        background: #fff;
+        color: #ddd;
+        float: left;
+        font-size: 40px;
+        margin-top: -11px;
+        margin-left: -21px;
+    }
+
+    #payment-tab .nav-link.active {
+        color: #007bff;
+    }
+
+        #payment-tab .nav-link.active i {
+            color: green;
+        }
+
+.table {
+    font-size: 0.8rem;
+}
+
+    .table td,
+    .table th {
+        padding: 4px 10px;
+        vertical-align: middle;
+    }
+
+    .table caption {
+        font-style: italic;
+        font-size: 0.7rem;
+        padding-top: 3px;
+        font-weight: 500;
+    }
+
+.table-payment th,
+.table-payment tfoot {
+    background: #e8f3ff;
+    border: 1px solid #70B6FF;
+    font-weight: bold !important;
+    color: #37597d;
+}
+
+.table-payment {
+    border: 1px solid #70B6FF;
+}
+
+    .table-payment td,
+    .table-payment thead th {
+        border: 1px solid #70B6FF;
+        color: #37597d;
+        font-weight: bold;
+    }
+
+    .table-payment tr:nth-child(even) {
+        background-color: #e8f3ff;
+    }
+
+.payment-details {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+    .payment-details .btn {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 100%);
+        border: solid 2px #aaa;
+        font-size: 0.85rem;
+        padding: 7px 20px;
+        font-weight: 700;
+        color: green;
+    }
+
+.table-history {
+    border: solid 1px #f6caa3;
+    color: #555;
+}
+
+    .table-history td,
+    .table-history th,
+    .table-history thead th {
+        border: solid 1px #f6caa3;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+
+    .table-history th,
+    .table-history tfoot {
+        background-color: #ffe4cc;
+    }
+
+.right-tabdata {
+    margin-top: -43px;
+}
+
+/* make payment css end */
+
+/*thank you css start */
+
+.gp_progress {
+    margin: 40px 0 0px;
+}
+
+    .gp_progress .progress {
+        height: 8px;
+        background: #C0D9F5;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        overflow: visible;
+        position: relative;
+    }
+
+        .gp_progress .progress .progress-bar {
+            border-radius: 15px;
+            box-shadow: none;
+            position: relative;
+            animation: animate-positive 2s;
+            overflow: visible;
+        }
+
+        .gp_progress .progress .progress-value {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            line-height: 16px;
+            background: #5cc867;
+            border: 7px solid #5cc867;
+            font-size: 12px;
+            font-weight: 600;
+            color: #ffffff;
+            position: absolute;
+            top: -17px;
+            right: -15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+.modal-content {
+    box-shadow: 0px 0px 20px #0000001A;
+    border-radius: 10px !important;
+}
+
+.gp_modal_o {
+    padding: 15px;
+    border: 1px solid #24BE9E;
+    border-radius: 10px;
+    text-align: right;
+    padding-left: 45%;
+    padding-top: 100px;
+    position: relative;
+}
+
+    .gp_modal_o p {
+        font-size: 15px;
+        font-weight: 500;
+        color: #575757;
+    }
+
+    .gp_modal_o h2 {
+        color: #575757;
+        text-align: right;
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .gp_modal_o p.blue {
+        color: #375E87;
+        font-size: 16px;
+        margin-bottom: 60px;
+        margin-top: 10px;
+    }
+
+    .gp_modal_o .btn-primary {
+        background: #37597D;
+        border-color: #37597D;
+        padding: 7px 40px;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-bottom: 10px;
+        border-radius: 9px;
+    }
+
+        .gp_modal_o .btn-primary:hover,
+        .gp_modal_o .btn-info:focus,
+        .gp_modal_o .btn-info:active,
+        .gp_modal_o .btn-info:not(:disabled):not(.disabled):active {
+            color: #fff;
+            background-color: #416a97;
+            border-color: #416a97;
+        }
+
+
+
+            .gp_modal_o .btn-info:focus,
+            .gp_modal_o .btn-info:not(:disabled):not(.disabled):active:focus {
+                box-shadow: 0 0 0 2px #5da2ec45;
+            }
+
+.gpmod_mini {
+    position: absolute;
+    top: calc(50% - 120px);
+    left: -130px;
+    background: transparent linear-gradient(182deg, #426C9A 0%, #294B6E 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 25px 15px;
+    padding: 15px 25px 15px;
+}
+
+    .gpmod_mini img {
+        width: 40px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .gpmod_mini h5 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .gpmod_mini h3 {
+        font-size: 40px;
+    }
+
+    .gpmod_mini p {
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+/*thank you css end */
+
 
 
 /*stepper css start here*/
-#grad1 {
-    background-color: : #9C27B0;
-    background-image: linear-gradient(120deg, #FF4081, #81D4FA)
-}
-
 #msform {
     text-align: center;
     position: relative;
-    margin-top: 20px
+    margin-top: 30px;
 }
+/*#grad1 {
+    background-color: : #9C27B0;
+    background-image: linear-gradient(120deg, #FF4081, #81D4FA)
+}*/
 
-    #msform fieldset .form-card {
+/*#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}*/
+
+   /* #msform fieldset .form-card {
         background: white;
         border: 0 none;
         border-radius: 0px;
@@ -759,18 +1063,18 @@ button.dept_submit {
         margin: 0;
         padding-bottom: 20px;
         position: relative
-    }
+    }*/
 
         #msform fieldset:not(:first-of-type) {
             display: none
         }
 
-        #msform fieldset .form-card {
+       /* #msform fieldset .form-card {
             text-align: left;
             color: #9E9E9E
-        }
+        }*/
 
-    #msform input,
+    /*#msform input,
     #msform textarea {
         padding: 0px 8px 4px 8px;
         border: none;
@@ -784,9 +1088,9 @@ button.dept_submit {
         color: #2C3E50;
         font-size: 16px;
         letter-spacing: 1px
-    }
+    }*/
 
-        #msform input:focus,
+        /*#msform input:focus,
         #msform textarea:focus {
             -moz-box-shadow: none !important;
             -webkit-box-shadow: none !important;
@@ -795,9 +1099,9 @@ button.dept_submit {
             font-weight: bold;
             border-bottom: 2px solid skyblue;
             outline-width: 0
-        }
+        }*/
 
-    #msform .action-button {
+   /* #msform .action-button {
         width: 100px;
         background: skyblue;
         font-weight: bold;
@@ -807,14 +1111,14 @@ button.dept_submit {
         cursor: pointer;
         padding: 10px 5px;
         margin: 10px 5px
-    }
+    }*/
 
-        #msform .action-button:hover,
+        /*#msform .action-button:hover,
         #msform .action-button:focus {
             box-shadow: 0 0 0 2px white, 0 0 0 3px skyblue
-        }
+        }*/
 
-    #msform .action-button-previous {
+   /* #msform .action-button-previous {
         width: 100px;
         background: #616161;
         font-weight: bold;
@@ -824,14 +1128,14 @@ button.dept_submit {
         cursor: pointer;
         padding: 10px 5px;
         margin: 10px 5px
-    }
+    }*/
 
-        #msform .action-button-previous:hover,
+       /* #msform .action-button-previous:hover,
         #msform .action-button-previous:focus {
             box-shadow: 0 0 0 2px white, 0 0 0 3px #616161
-        }
+        }*/
 
-select.list-dt {
+/*select.list-dt {
     border: none;
     outline: 0;
     border-bottom: 1px solid #ccc;
@@ -841,22 +1145,59 @@ select.list-dt {
 
     select.list-dt:focus {
         border-bottom: 2px solid skyblue
-    }
+    }*/
 
 
-.fs-title {
+/*.fs-title {
     font-size: 25px;
     color: #2C3E50;
     margin-bottom: 10px;
     font-weight: bold;
     text-align: left
-}
+}*/
 
 #progressbar {
     margin-bottom: 30px;
     overflow: hidden;
-    color: lightgrey
+    counter-reset: step;
 }
+    #progressbar li {
+        list-style-type: none;
+        color: #436D9A;
+        font-size: 11px;
+        width: 20%;
+        float: left;
+        position: relative;
+    }
+        #progressbar li.active:before, #progressbar li.active:after {
+            background: #27c727;
+            color: white;
+        }
+        #progressbar li:before {
+            content: '\f00c';
+            font: 16px FontAwesome;
+            width: 28px;
+            height: 28px;
+            line-height: 28px;
+            display: block;
+            font-size: 17px;
+            border-radius: 25px;
+            margin: 0 auto 10px auto;
+            background: #d4d4d4;
+            color: white;
+        }
+        #progressbar li:after {
+            position: absolute;
+            width: calc(100% - 40px);
+            height: 2px;
+            border-bottom: 2px dashed #cac9c9;
+            right: calc(50% - -20px);
+            top: 14px;
+            content: '';
+            z-index: 0;
+        }
+
+
 
     #progressbar .active {
         color: #000000
@@ -865,7 +1206,7 @@ select.list-dt {
     #progressbar li {
         list-style-type: none;
         font-size: 12px;
-        width: 25%;
+        width: 20%;
         float: left;
         position: relative
     }
@@ -884,7 +1225,8 @@ select.list-dt {
         font-family: FontAwesome;
         content: "\f09d"
     }
-     #progressbar #payment2:before {
+
+    #progressbar #payment2:before {
         font-family: FontAwesome;
         content: "\f09d"
     }

@@ -82,6 +82,7 @@
     <Content Include="js\jquery-2.1.1.min.js" />
     <Content Include="js\Sidebar.js" />
     <Content Include="login.aspx" />
+    <Content Include="MakePayment.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -140,6 +141,13 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MakePayment.aspx.cs">
+      <DependentUpon>MakePayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MakePayment.aspx.designer.cs">
+      <DependentUpon>MakePayment.aspx</DependentUpon>
     </Compile>
     <Compile Include="OuterMaster.Master.cs">
       <DependentUpon>OuterMaster.Master</DependentUpon>
