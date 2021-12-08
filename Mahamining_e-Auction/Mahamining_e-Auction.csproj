@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplyDigitalCertificate.aspx" />
+    <Content Include="BidderRegistration.aspx" />
     <Content Include="css\Sidebar.css" />
     <Content Include="css\StyleSheet.css" />
     <Content Include="eAuction.aspx" />
@@ -97,6 +98,13 @@
     </Compile>
     <Compile Include="ApplyDigitalCertificate.aspx.designer.cs">
       <DependentUpon>ApplyDigitalCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BidderRegistration.aspx.cs">
+      <DependentUpon>BidderRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BidderRegistration.aspx.designer.cs">
+      <DependentUpon>BidderRegistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="eAuction.aspx.cs">
       <DependentUpon>eAuction.aspx</DependentUpon>

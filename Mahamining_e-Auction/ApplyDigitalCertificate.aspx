@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="ApplyDigitalCertificate.aspx.cs" Inherits="Mahamining_e_Auction.ApplyDigitalCertificate" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/OuterMaster.Master" AutoEventWireup="true" CodeBehind="ApplyDigitalCertificate.aspx.cs" Inherits="Mahamining_e_Auction.ApplyDigitalCertificate" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="px-3">
         <div class="row" id="">
         <div class="col-sm-12">
