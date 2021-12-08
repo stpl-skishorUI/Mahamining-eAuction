@@ -531,3 +531,92 @@ button.dept_submit {
     width: 20px;
     height: 20px;
 }
+
+/*///////////// CSS for Login page Starts //////////////*/
+.upper-body {
+    background-color: var(--font-color);
+    height: 50vh;
+}
+
+.lower-body {
+    background-color: rgba(112, 169, 233, 0.25);
+    height: 50vh;
+}
+
+.login-box {
+    position: absolute;
+    top: 45%;
+    margin: 0 auto;
+    /* display: flex; */
+    max-width: 480px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .login-box .logo {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        padding-bottom: 40px;
+    }
+
+    .login-box .login {
+        background-color: #fff;
+        border-radius: 10px;
+        height: 400px;
+        padding: 30px 50px;
+    }
+
+
+        .login-box .login .login-close {
+            text-align: right;
+            font-size: 1.375em;
+            position: absolute;
+            right: 15px;
+            top: 95px;
+        }
+
+            .login-box .login .login-close a {
+                color: #aaa;
+            }
+
+        .login-box .login h6 {
+            color: var(--font-color);
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            font-size: 1.375em;
+        }
+
+        .login-box .login .form-control {
+            border-radius: 0;
+            border: none;
+            border-bottom: solid 1px #aaa;
+            font-size: 0.875em;
+            box-shadow: none;
+            /*padding-left: 0;*/
+        }
+
+        .login-box .login .captcha {
+            background-color: #E8F0FE;
+            border: none;
+        }
+
+        .login-box .login button.captcha {
+            background-color: #E8F0FE;
+            width: 40px;
+            height: 40px;
+        }
+
+        .login-box .login .btn-login {
+            background-color: var(--font-color);
+            color: #fff;
+            padding: 5px 20px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            border: none;
+            font-size: 0.813em;
+        }
+
+/*///////////// CSS for Login page ends //////////////*/
