@@ -70,6 +70,8 @@
     <Content Include="css\Sidebar.css" />
     <Content Include="css\StyleSheet.css" />
     <Content Include="eAuction.aspx" />
+    <Content Include="eAuctionParticipate.aspx" />
+    <Content Include="eAuctionPlotProfile.aspx" />
     <Content Include="images\RevenueDeptLogo.png" />
     <Content Include="images\revenue_department.png" />
     <Content Include="images\ShauryaTechnosoftLogoSmall.png" />
@@ -93,6 +95,20 @@
     </Compile>
     <Compile Include="eAuction.aspx.designer.cs">
       <DependentUpon>eAuction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eAuctionParticipate.aspx.cs">
+      <DependentUpon>eAuctionParticipate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eAuctionParticipate.aspx.designer.cs">
+      <DependentUpon>eAuctionParticipate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eAuctionPlotProfile.aspx.cs">
+      <DependentUpon>eAuctionPlotProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="eAuctionPlotProfile.aspx.designer.cs">
+      <DependentUpon>eAuctionPlotProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
