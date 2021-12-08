@@ -72,6 +72,7 @@
     <Content Include="eAuction.aspx" />
     <Content Include="eAuctionParticipate.aspx" />
     <Content Include="eAuctionPlotProfile.aspx" />
+    <Content Include="EventDetails.aspx" />
     <Content Include="images\RevenueDeptLogo.png" />
     <Content Include="images\revenue_department.png" />
     <Content Include="images\ShauryaTechnosoftLogoSmall.png" />
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="eAuctionPlotProfile.aspx.designer.cs">
       <DependentUpon>eAuctionPlotProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventDetails.aspx.cs">
+      <DependentUpon>EventDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventDetails.aspx.designer.cs">
+      <DependentUpon>EventDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
