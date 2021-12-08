@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Mahamining_e_Auction
 {
-    public partial class apply_certificate : System.Web.UI.Page
+    public partial class ApplyDigitalCertificate : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

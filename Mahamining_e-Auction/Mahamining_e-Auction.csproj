@@ -67,7 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="apply-certificate.aspx" />
+    <Content Include="ApplyDigitalCertificate.aspx" />
     <Content Include="css\Sidebar.css" />
     <Content Include="css\StyleSheet.css" />
     <Content Include="eAuction.aspx" />
@@ -91,12 +91,12 @@
     <Compile Include="AdminMaster.Master.designer.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
     </Compile>
-    <Compile Include="apply-certificate.aspx.cs">
-      <DependentUpon>apply-certificate.aspx</DependentUpon>
+    <Compile Include="ApplyDigitalCertificate.aspx.cs">
+      <DependentUpon>ApplyDigitalCertificate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="apply-certificate.aspx.designer.cs">
-      <DependentUpon>apply-certificate.aspx</DependentUpon>
+    <Compile Include="ApplyDigitalCertificate.aspx.designer.cs">
+      <DependentUpon>ApplyDigitalCertificate.aspx</DependentUpon>
     </Compile>
     <Compile Include="eAuction.aspx.cs">
       <DependentUpon>eAuction.aspx</DependentUpon>
