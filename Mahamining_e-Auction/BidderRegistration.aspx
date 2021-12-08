@@ -262,36 +262,32 @@
                 </div>
                 <div class="col-md-12 text-end pb-3 pt-0">
                     <button type="button" data-button="cancel" id="btnClear" class="btn mx-2 dept_submit "><i class="fa fa-times"></i>Clear</button>
-                    <button type="button" data-button="Saveupdate" id="btnSave" class="btn dept_submit apply" data-toggle="modal" data-target="#submitModal"><i class="fa fa-sign-out-alt"></i><span class="font-weight-normal">Submit</span></button>
+                    <button type="button" id="btnSave" class="btn dept_submit" data-bs-toggle="modal" data-bs-target="#submitModal"><i class="fa fa-sign-out-alt"></i><span class="font-weight-normal">Submit</span></button>
                 </div>
             </div>
         </div>
         
     </div>
 
-    <div class="modal fade submit-modal" id="submitModal" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalLabel">
+    <div class="modal fade submit-modal" id="submitModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
-                    <div class="top-close">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <%--<span aria-hidden="true" class="text-secondary">×</span>--%>
+                    </button>
                     <div class="model-check">
                         <i class="fa fa-check"></i>
                     </div>
                     <h3 id="">Your form has been submitted successfully !</h3>
                     <div class="text-center">
                         <button type="button" id="quarryOk" class="btn btn-primary mb-0 px-5 text-uppercase" data-dismiss="modal">Ok</button>
-                        <%--<button type="button" id="GeofenceYes" class="btn btn-info mb-0 d-none isgeofenceExist" data-dismiss="modal">Yes</button>
-                        <button type="button" id="GeofenceNo" class="btn btn-danger mb-0 d-none isgeofenceExist" data-dismiss="modal">NO</button>--%>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+    
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
 </asp:Content>
