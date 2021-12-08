@@ -48,9 +48,18 @@
                                         <ul>
                                             <li><a href="eAuctionParticipate.aspx">Participate</a></li>
                                             <li><a href="eAuctionPlotProfile.aspx">Plot Profile</a></li>
+                                            <li><a href="ApplyDigitalCertificate.aspx">Apply Digital Certificate</a></li>
+                                            <li><a href="BidderRegistration.aspx">Bidder Registration</a></li>
+                                            <li><a href="MakePayment.aspx">Make Payment</a></li>
                                             
                                         </ul>
                                     </div>
+                                </li>
+                                <li class="active-new">
+                                    <a title="Main Dashboard" href="login.aspx">
+                                        <i class="fas fa-star"></i>
+                                        <span class="menu-text">Login</span>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
