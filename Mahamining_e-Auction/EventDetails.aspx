@@ -4,7 +4,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
     <div class="card border-0">
-        <div class="card-body">
+        <div class="card-body event_o">
+            <div class="event_head">
+                <h5>Event Details</h5>
+            </div>
             <div class="row justify-content-center mt-0">
                 <div class="col-12">
 
@@ -24,133 +27,154 @@
                                 <!-- fieldsets -->
                                 <fieldset>
                                     <div class="eAuction-table eAuction-table-height eAuction-table-border rounded mb-5">
-                                        <table class="mb-0 table table-hover table-bordered border-secondary event_table ">
-                                        <thead class="thead-light">
-                                            <tr>
-                                                <th scope="col">No</th>
-                                                <th scope="col">District</th>
-                                                <th scope="col">Event Id</th>
-                                                <th scope="col">Title</th>
-                                                <th scope="col">Description</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td scope="row">1</td>
-                                                <td>Satara</td>
-                                                <td>ID-1232612</td>
-                                                <td>Bidding Manual -CGM Auction Portal</td>
-                                                <td>Circular for CGM Auction Vision for mines monitoring_User Manual [Version 1.3]</td>
-                                            </tr>
+                                        <table class="mb-0 table table-bordered border-secondary event_table ">
+                                            <thead class="thead-light">
+                                                <tr>
+                                                    <th scope="col">No</th>
+                                                    <th scope="col">District</th>
+                                                    <th scope="col">Event Id</th>
+                                                    <th scope="col">Title</th>
+                                                    <th scope="col">Description</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="row">1</td>
+                                                    <td>Satara</td>
+                                                    <td>ID-1232612</td>
+                                                    <td>Bidding Manual -CGM Auction Portal</td>
+                                                    <td>Circular for CGM Auction Vision for mines monitoring_User Manual [Version 1.3]</td>
+                                                </tr>
 
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
                                     </div>
-                                    
 
-                                    <table class="table table-bordered event_table et_2">
-                                        <thead class="thead-dark">
-                                            <tr>
-                                                <th scope="col">Documents ID</th>
-                                                <th scope="col">Documents Name</th>
-                                                <th scope="col">upload documents path</th>
-                                                <th scope="col">upload</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td scope="row">1</td>
-                                                <td>PAN Card</td>
-                                                <td>D/Users/Name/New folder</td>
-                                                <td class="evt_upload_grp">
-                                                    <div class="form-group">
-                                                        <input type="checkbox" id="html">
-                                                        <label for="html"></label>
-                                                    </div>
-                                                    <div class="upload-btn-wrapper">
-                                                        <button class="btn">Upload</button>
-                                                        <input type="file" name="myfile" />
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">2</td>
-                                                <td>Aadhaar Card</td>
-                                                <td></td>
-                                                <td class="evt_upload_grp">
-                                                    <div class="form-group">
-                                                        <input type="checkbox" id="html">
-                                                        <label for="html"></label>
-                                                    </div>
-                                                    <div class="upload-btn-wrapper">
-                                                        <button class="btn">Upload</button>
-                                                        <input type="file" name="myfile" />
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">3</td>
-                                                <td>Last Three Year Turn Over</td>
-                                                <td></td>
-                                                <td class="evt_upload_grp">
-                                                    <div class="form-group">
-                                                        <input type="checkbox" id="html">
-                                                        <label for="html"></label>
-                                                    </div>
-                                                    <div class="upload-btn-wrapper">
-                                                        <button class="btn">Upload</button>
-                                                        <input type="file" name="myfile" />
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">4</td>
-                                                <td>GST Certificate</td>
-                                                <td></td>
-                                                <td class="evt_upload_grp">
-                                                    <div class="form-group">
-                                                        <input type="checkbox" id="html">
-                                                        <label for="html"></label>
-                                                    </div>
-                                                    <div class="upload-btn-wrapper">
-                                                        <button class="btn">Upload</button>
-                                                        <input type="file" name="myfile" />
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">5</td>
-                                                <td>Reg Recipt</td>
-                                                <td></td>
-                                                <td class="evt_upload_grp">
-                                                    <div class="form-group">
-                                                        <input type="checkbox" id="html">
-                                                        <label for="html"></label>
-                                                    </div>
-                                                    <div class="upload-btn-wrapper">
-                                                        <button class="btn">Upload</button>
-                                                        <input type="file" name="myfile" />
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td scope="row">6</td>
-                                                <td>TDC Certificate</td>
-                                                <td></td>
-                                                <td class="evt_upload_grp">
-                                                    <div class="form-group">
-                                                        <input type="checkbox" id="html">
-                                                        <label for="html"></label>
-                                                    </div>
-                                                    <div class="upload-btn-wrapper">
-                                                        <button class="btn">Upload</button>
-                                                        <input type="file" name="myfile" />
-                                                    </div>
-                                                </td>
-                                            </tr>
+                                    <div class=" eAuction-table-border rounded overflow-hidden mb-3">
+                                        <table class="table table-bordered event_table et_2 mb-0">
+                                            <thead class="thead-dark">
+                                                <tr>
+                                                    <th scope="col">Documents ID</th>
+                                                    <th scope="col">Documents Name</th>
+                                                    <th scope="col">Varification Status</th>
+                                                    <th scope="col">upload documents path</th>
+                                                    <th scope="col">upload</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="row">1</td>
+                                                    <td>PAN Card</td>
+                                                    <td class="text-warning">Pending</td>
+                                                    <td>D/Users/Name/New folder</td>
+                                                    <td class="evt_upload_grp ">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-group">
+                                                                <input type="checkbox" id="html">
+                                                                <label for="html"></label>
+                                                            </div>
+                                                            <div class="upload-btn-wrapper">
+                                                                <button class="btn">Upload</button>
+                                                                <%--<input type="file" name="myfile" />--%>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">2</td>
+                                                    <td>Aadhaar Card</td>
+                                                    <td class="text-warning">Pending</td>
+                                                    <td></td>
+                                                    <td class="evt_upload_grp ">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-group">
+                                                                <input type="checkbox" id="html">
+                                                                <label for="html"></label>
+                                                            </div>
+                                                            <div class="upload-btn-wrapper">
+                                                                <button class="btn">Upload</button>
+                                                                <%--<input type="file" name="myfile" />--%>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">3</td>
+                                                    <td>Last Three Year Turn Over</td>
+                                                    <td class="text-warning">Pending</td>
+                                                    <td></td>
+                                                    <td class="evt_upload_grp ">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-group">
+                                                                <input type="checkbox" id="html">
+                                                                <label for="html"></label>
+                                                            </div>
+                                                            <div class="upload-btn-wrapper">
+                                                                <button class="btn">Upload</button>
+                                                                <%--<input type="file" name="myfile" />--%>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">4</td>
+                                                    <td>GST Certificate</td>
+                                                    <td class="text-warning">Pending</td>
+                                                    <td></td>
+                                                    <td class="evt_upload_grp ">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-group">
+                                                                <input type="checkbox" id="html">
+                                                                <label for="html"></label>
+                                                            </div>
+                                                            <div class="upload-btn-wrapper">
+                                                                <button class="btn">Upload</button>
+                                                                <%--<input type="file" name="myfile" />--%>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">5</td>
+                                                    <td>Reg Recipt</td>
+                                                    <td class="text-warning">Pending</td>
+                                                    <td></td>
+                                                    <td class="evt_upload_grp ">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-group">
+                                                                <input type="checkbox" id="html">
+                                                                <label for="html"></label>
+                                                            </div>
+                                                            <div class="upload-btn-wrapper">
+                                                                <button class="btn">Upload</button>
+                                                                <%--<input type="file" name="myfile" />--%>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row">6</td>
+                                                    <td>TDC Certificate</td>
+                                                    <td class="text-warning">Pending</td>
+                                                    <td></td>
+                                                    <td class="evt_upload_grp ">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-group">
+                                                                <input type="checkbox" id="html">
+                                                                <label for="html"></label>
+                                                            </div>
+                                                            <div class="upload-btn-wrapper">
+                                                                <button class="btn">Upload</button>
+                                                                <%--<input type="file" name="myfile" />--%>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
 
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                     <input type="button" name="next" class="next action-button" value="Next Step" />
                                 </fieldset>
                                 <fieldset>

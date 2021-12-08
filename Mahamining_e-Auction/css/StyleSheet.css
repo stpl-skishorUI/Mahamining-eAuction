@@ -1026,177 +1026,62 @@ button.dept_submit {
 
 
 /*stepper css start here*/
+.event_head h5 {
+    letter-spacing: 0px;
+    color: #436D9A;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 3px solid #FFB968;
+    padding-bottom: 2px;
+    display: inline-block;
+}
 #msform {
     text-align: center;
     position: relative;
     margin-top: 30px;
 }
-/*#grad1 {
-    background-color: : #9C27B0;
-    background-image: linear-gradient(120deg, #FF4081, #81D4FA)
-}*/
-
-/*#msform {
-    text-align: center;
-    position: relative;
-    margin-top: 20px
-}*/
-
-   /* #msform fieldset .form-card {
-        background: white;
-        border: 0 none;
-        border-radius: 0px;
-        box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
-        padding: 20px 40px 30px 40px;
-        box-sizing: border-box;
-        width: 94%;
-        margin: 0 3% 20px 3%;
-        position: relative
-    }
-
-    #msform fieldset {
-        background: white;
-        border: 0 none;
-        border-radius: 0.5rem;
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        padding-bottom: 20px;
-        position: relative
-    }*/
-
-        #msform fieldset:not(:first-of-type) {
-            display: none
-        }
-
-       /* #msform fieldset .form-card {
-            text-align: left;
-            color: #9E9E9E
-        }*/
-
-    /*#msform input,
-    #msform textarea {
-        padding: 0px 8px 4px 8px;
-        border: none;
-        border-bottom: 1px solid #ccc;
-        border-radius: 0px;
-        margin-bottom: 25px;
-        margin-top: 2px;
-        width: 100%;
-        box-sizing: border-box;
-        font-family: montserrat;
-        color: #2C3E50;
-        font-size: 16px;
-        letter-spacing: 1px
-    }*/
-
-        /*#msform input:focus,
-        #msform textarea:focus {
-            -moz-box-shadow: none !important;
-            -webkit-box-shadow: none !important;
-            box-shadow: none !important;
-            border: none;
-            font-weight: bold;
-            border-bottom: 2px solid skyblue;
-            outline-width: 0
-        }*/
-
-   /* #msform .action-button {
-        width: 100px;
-        background: skyblue;
-        font-weight: bold;
-        color: white;
-        border: 0 none;
-        border-radius: 0px;
-        cursor: pointer;
-        padding: 10px 5px;
-        margin: 10px 5px
-    }*/
-
-        /*#msform .action-button:hover,
-        #msform .action-button:focus {
-            box-shadow: 0 0 0 2px white, 0 0 0 3px skyblue
-        }*/
-
-   /* #msform .action-button-previous {
-        width: 100px;
-        background: #616161;
-        font-weight: bold;
-        color: white;
-        border: 0 none;
-        border-radius: 0px;
-        cursor: pointer;
-        padding: 10px 5px;
-        margin: 10px 5px
-    }*/
-
-       /* #msform .action-button-previous:hover,
-        #msform .action-button-previous:focus {
-            box-shadow: 0 0 0 2px white, 0 0 0 3px #616161
-        }*/
-
-/*select.list-dt {
-    border: none;
-    outline: 0;
-    border-bottom: 1px solid #ccc;
-    padding: 2px 5px 3px 5px;
-    margin: 2px
+#msform fieldset:not(:first-of-type) {
+    display: none
 }
-
-    select.list-dt:focus {
-        border-bottom: 2px solid skyblue
-    }*/
-
-
-/*.fs-title {
-    font-size: 25px;
-    color: #2C3E50;
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-align: left
-}*/
 
 #progressbar {
     margin-bottom: 30px;
     overflow: hidden;
     counter-reset: step;
 }
-    #progressbar li {
-        list-style-type: none;
-        color: #436D9A;
-        font-size: 11px;
-        width: 20%;
-        float: left;
-        position: relative;
+#progressbar li {
+    list-style-type: none;
+    color: #436D9A;
+    font-size: 11px;
+    width: 20%;
+    float: left;
+    position: relative;
+}
+    #progressbar li:before {
+        content: '01';
+        font-size: 16px;
+        /*font-family: FontAwesome;*/
+        background: #d4d4d4;
+        color: white;
     }
-        #progressbar li.active:before, #progressbar li.active:after {
-            background: #27c727;
-            color: white;
-        }
-        #progressbar li:before {
-            content: '\f00c';
-            font: 16px FontAwesome;
-            width: 28px;
-            height: 28px;
-            line-height: 28px;
-            display: block;
-            font-size: 17px;
-            border-radius: 25px;
-            margin: 0 auto 10px auto;
-            background: #d4d4d4;
-            color: white;
-        }
-        #progressbar li:after {
-            position: absolute;
-            width: calc(100% - 40px);
-            height: 2px;
-            border-bottom: 2px dashed #cac9c9;
-            right: calc(50% - -20px);
-            top: 14px;
-            content: '';
-            z-index: 0;
-        }
 
+    #progressbar li:after {
+        position: absolute;
+        width: calc(100% - 40px);
+        height: 2px;
+        border-bottom: 2px dashed #cac9c9;
+        right: calc(50% - -20px);
+        top: 14px;
+        content: '';
+        z-index: 0;
+    }
+
+    #progressbar li.active:before, 
+    #progressbar li.active:after {
+        background: #27c727;
+        color: white;
+    }
+       
 
 
     #progressbar .active {
@@ -1211,12 +1096,36 @@ button.dept_submit {
         position: relative
     }
 
-    #progressbar #account:before {
+       /* #progressbar li :before {
+            font-family: FontAwesome;
+            content: "\f00c";
+        }*/
+    /*#progressbar #account :before {
         font-family: FontAwesome;
-        content: "\f023"
-    }
+        content: "01";
+    }*/
 
     #progressbar #personal:before {
+        font-family: FontAwesome;
+        content: "02"
+    }
+
+    #progressbar #payment:before {
+        font-family: FontAwesome;
+        content: "03"
+    }
+
+    #progressbar #payment2:before {
+        font-family: FontAwesome;
+        content: "04"
+    }
+
+    #progressbar #confirm:before {
+        font-family: FontAwesome;
+        content: "05"
+    }
+
+   /* #progressbar #personal:before {
         font-family: FontAwesome;
         content: "\f007"
     }
@@ -1234,36 +1143,34 @@ button.dept_submit {
     #progressbar #confirm:before {
         font-family: FontAwesome;
         content: "\f00c"
-    }
+    }*/
 
     #progressbar li:before {
-        width: 50px;
-        height: 50px;
-        line-height: 45px;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
         display: block;
-        font-size: 18px;
+        font-size: 16px;
         color: #ffffff;
         background: lightgray;
         border-radius: 50%;
         margin: 0 auto 10px auto;
         padding: 2px
     }
-
     #progressbar li:after {
-        content: '';
-        width: 100%;
-        height: 2px;
-        background: lightgray;
         position: absolute;
-        left: 0;
-        top: 25px;
-        z-index: -1
+        width: calc(100% - 40px);
+        height: 2px;
+        border-bottom: 2px dashed #cac9c9;
+        right: calc(50% - -20px);
+        top: 14px;
+        content: '';
+        z-index: 0;
     }
-
-    #progressbar li.active:before,
-    #progressbar li.active:after {
-        background: skyblue
+    #progressbar li:first-child:after {
+        content: none;
     }
+   
 
 .radio-group {
     position: relative;
@@ -1275,4 +1182,108 @@ button.dept_submit {
     width: 100%;
     object-fit: cover
 }
+table.event_table {
+    text-align: left;
+}
+.event_table.et_2.table td, .event_table.et_2.table th {
+    color: #000000;
+}
+.event_table.table .thead-dark th {
+    color: #000000;
+    background-color: #c0d3e6;
+    border-color: #c0d3e6;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+.event_table.et_2.table td, .event_table.et_2.table th {
+    color: #000000;
+}
+.event_table.table td, .event_table.table th {
+    color: #2680EB;
+    font-size: 12px;
+    font-weight: 500;
+}
+.evt_upload_grp .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+
+
+.evt_upload_grp .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+.evt_upload_grp .form-group label {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0;
+    margin-top: -2px;
+}
+.evt_upload_grp .form-group input:checked + label:before {
+    background-color: #17d02a;
+    border-radius: 50%;
+    border: 2px solid #17d02a;
+    color: #fff;
+}
+.evt_upload_grp .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 4px;
+    height: 10px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate( 45deg);
+}
+    .evt_upload_grp .form-group label:before {
+        content: '';
+        -webkit-appearance: none;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 2px solid #c8cac8;
+        padding: 8px;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        cursor: pointer;
+        margin-right: 5px;
+        color: #fff;
+    }
+.evt_upload_grp .form-group input + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 4px;
+    height: 10px;
+    border: solid #c8cac8;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.evt_upload_grp .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+   
+}
+.evt_upload_grp .btn {
+    color: #436D9A;
+    background-color: #D1DFEF;
+    padding: 4px 15px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+
 /*stepper css start here*/
