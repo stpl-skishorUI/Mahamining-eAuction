@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="apply-certificate.aspx" />
     <Content Include="css\Sidebar.css" />
     <Content Include="css\StyleSheet.css" />
     <Content Include="eAuction.aspx" />
@@ -89,6 +90,13 @@
     </Compile>
     <Compile Include="AdminMaster.Master.designer.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="apply-certificate.aspx.cs">
+      <DependentUpon>apply-certificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="apply-certificate.aspx.designer.cs">
+      <DependentUpon>apply-certificate.aspx</DependentUpon>
     </Compile>
     <Compile Include="eAuction.aspx.cs">
       <DependentUpon>eAuction.aspx</DependentUpon>
@@ -125,10 +133,18 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="OuterMaster.Master.cs">
+      <DependentUpon>OuterMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OuterMaster.Master.designer.cs">
+      <DependentUpon>OuterMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminMaster.Master" />
+    <Content Include="OuterMaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

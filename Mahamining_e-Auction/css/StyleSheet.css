@@ -455,5 +455,14 @@ table.fold-table {
     display: inline-block;
     margin-bottom: 15px;
 }
-
-
+#outertop img{
+    width:200px;
+}
+#home-content {
+    padding: 15px 0;
+}
+    #home-content .main-card {
+        padding: 15px;
+        background-color:#fff;
+        border-radius:10px;
+    }
