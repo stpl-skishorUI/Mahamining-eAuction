@@ -1,0 +1,68 @@
+﻿body {
+    font-family: 'Rubik', sans-serif;
+    background-color:#eee;
+}
+#topbar {
+    font-size: 0.9rem;
+    position: fixed;
+    top: 0;
+    width: calc(100vw - 80px);
+    background-color: #fff;
+}
+
+    #topbar .navbar-brand {
+        padding: 0;
+    }
+
+        #topbar .navbar-brand img {
+            width: 200px;
+        }
+
+    #topbar .nav-item {
+        line-height: 35px;
+    }
+
+    #topbar .avatar {
+        width: 50px;
+    }
+
+    #topbar .dropdown-toggle {
+        padding: 0;
+    }
+
+    #topbar .username {
+        color: var(--second-color);
+    }
+
+    #topbar .balance {
+        box-shadow: 0px 0px 6px #00000029;
+        border: 0.5px solid #FFB968;
+        border-radius: 6px;
+        margin-left: 10px;
+    }
+
+        #topbar .balance img {
+            width: 30px;
+            padding-right: 5px;
+            margin-right: 5px;
+        }
+
+        #topbar .balance .bal-amount {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+
+        #topbar .balance .link-account {
+            font-size: 0.75rem;
+        }
+.main-content{
+    margin-top:70px;
+    
+}
+.content {
+    background-color: #fff;
+    margin:15px;
+    border-radius:5px;
+    padding:15px;
+}
