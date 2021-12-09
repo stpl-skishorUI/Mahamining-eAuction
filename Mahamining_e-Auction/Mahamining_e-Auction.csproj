@@ -69,12 +69,14 @@
   <ItemGroup>
     <Content Include="ApplyDigitalCertificate.aspx" />
     <Content Include="BidderRegistration.aspx" />
+    <Content Include="css\GeneratedDemandNote.css" />
     <Content Include="css\Sidebar.css" />
     <Content Include="css\StyleSheet.css" />
     <Content Include="eAuction.aspx" />
     <Content Include="eAuctionParticipate.aspx" />
     <Content Include="eAuctionPlotProfile.aspx" />
     <Content Include="EventDetails.aspx" />
+    <Content Include="GeneratedDemandNote.aspx" />
     <Content Include="images\RevenueDeptLogo.png" />
     <Content Include="images\revenue_department.png" />
     <Content Include="images\ShauryaTechnosoftLogoSmall.png" />
@@ -134,6 +136,13 @@
     </Compile>
     <Compile Include="EventDetails.aspx.designer.cs">
       <DependentUpon>EventDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GeneratedDemandNote.aspx.cs">
+      <DependentUpon>GeneratedDemandNote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GeneratedDemandNote.aspx.designer.cs">
+      <DependentUpon>GeneratedDemandNote.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
