@@ -23,6 +23,7 @@
     top: 0;
     width: calc(100vw - 80px);
     background-color: #fff;
+    z-index: 1;
 }
 
     #topbar .navbar-brand {
@@ -81,6 +82,8 @@
     margin: 15px;
     border-radius: 5px;
     padding: 15px;
+    min-height: calc(100vh - 130px);
+    margin-bottom: 45px;
 }
 
 
@@ -386,9 +389,14 @@ table.fold-table {
     .eAuction-fold-table thead.thead-light {
         vertical-align: middle;
     }
-
+.eAuction-table .event_table.table td {
+    background: #EEF4FB;
+    border-left: 1px solid #ccc;
+}.eAuction-table .event_table.table td:first-child {
+    border-left: 0px solid #ccc;
+}
 .eAuction-table-border {
-    border: 1px solid #37597d !important;
+    border: 1px solid #70B6FF !important
 }
 
 .pagination .page-item .page-link {
@@ -412,7 +420,7 @@ table.fold-table {
 }
 
 .eAuction-table table > .thead-light th {
-    background-color: #37597d !important;
+    background-color: #335F8E !important;
     border-top: 0;
     color: #ffffff;
     font-weight: 400;
@@ -1034,6 +1042,7 @@ button.dept_submit {
     border-bottom: 3px solid #FFB968;
     padding-bottom: 2px;
     display: inline-block;
+    font-size: 1rem;
 }
 #msform {
     text-align: center;
@@ -1058,11 +1067,11 @@ button.dept_submit {
     position: relative;
 }
     #progressbar li:before {
-        content: '01';
-        font-size: 16px;
-        /*font-family: FontAwesome;*/
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
         background: #d4d4d4;
-        color: white;
+        color: #fff;
     }
 
     #progressbar li:after {
@@ -1076,17 +1085,13 @@ button.dept_submit {
         z-index: 0;
     }
 
-    #progressbar li.active:before, 
-    #progressbar li.active:after {
+    #progressbar li.active:before{
         background: #27c727;
         color: white;
     }
        
 
 
-    #progressbar .active {
-        color: #000000
-    }
 
     #progressbar li {
         list-style-type: none;
@@ -1106,23 +1111,27 @@ button.dept_submit {
     }*/
 
     #progressbar #personal:before {
-        font-family: FontAwesome;
-        content: "02"
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight:bold;
     }
 
     #progressbar #payment:before {
-        font-family: FontAwesome;
-        content: "03"
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
     }
 
     #progressbar #payment2:before {
-        font-family: FontAwesome;
-        content: "04"
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
     }
 
     #progressbar #confirm:before {
-        font-family: FontAwesome;
-        content: "05"
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
     }
 
    /* #progressbar #personal:before {
@@ -1146,9 +1155,9 @@ button.dept_submit {
     }*/
 
     #progressbar li:before {
-        width: 40px;
-        height: 40px;
-        line-height: 38px;
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
         display: block;
         font-size: 16px;
         color: #ffffff;
@@ -1193,16 +1202,15 @@ table.event_table {
     background-color: #c0d3e6;
     border-color: #c0d3e6;
     font-weight: 600;
-    font-size: 13px;
-    text-transform: uppercase;
+    font-size: .8rem;
     padding: 10px 5px;
 }
 .event_table.et_2.table td, .event_table.et_2.table th {
     color: #000000;
 }
 .event_table.table td, .event_table.table th {
-    color: #2680EB;
-    font-size: 12px;
+    /*color: #2680EB;*/
+    font-size: .8rem;
     font-weight: 500;
 }
 .evt_upload_grp .form-group {
@@ -1236,7 +1244,7 @@ table.event_table {
     content: '';
     display: block;
     position: absolute;
-    top: 4px;
+    top: 5px;
     left: 8px;
     width: 4px;
     height: 10px;
@@ -1262,7 +1270,7 @@ table.event_table {
     content: '';
     display: block;
     position: absolute;
-    top: 4px;
+    top: 5px;
     left: 8px;
     width: 4px;
     height: 10px;
@@ -1284,6 +1292,17 @@ table.event_table {
     font-size: 11px;
     font-weight: 500;
 }
-
+.btn-theme {
+    background: #234160;
+    color: #fff;
+}
+    .btn-theme:hover {
+        background: #152434;
+        color: #fff;
+    }
+.card.primaryCard {
+    border: 1px solid #70B6FF;
+    background: #EEF4FB;
+}
 
 /*stepper css start here*/
