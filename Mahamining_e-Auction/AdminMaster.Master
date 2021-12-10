@@ -67,6 +67,12 @@
                                     </a>
                                 </li>
                                 <li class="active-new">
+                                    <a title="Main Dashboard" href="LiveBidding.aspx">
+                                        <i class="fas fa-database"></i>
+                                        <span class="menu-text">Live Bidding</span>
+                                    </a>
+                                </li>
+                                <li class="active-new">
                                     <a title="Main Dashboard" href="login.aspx">
                                         <i class="fas fa-star"></i>
                                         <span class="menu-text">Login</span>

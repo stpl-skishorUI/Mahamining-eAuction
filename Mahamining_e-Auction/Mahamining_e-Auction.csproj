@@ -83,6 +83,7 @@
     <Content Include="images\wallet_2.svg" />
     <Content Include="js\jquery-2.1.1.min.js" />
     <Content Include="js\Sidebar.js" />
+    <Content Include="LiveBidding.aspx" />
     <Content Include="login.aspx" />
     <Content Include="MakePayment.aspx" />
     <Content Include="Web.config" />
@@ -143,6 +144,13 @@
     </Compile>
     <Compile Include="GeneratedDemandNote.aspx.designer.cs">
       <DependentUpon>GeneratedDemandNote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LiveBidding.aspx.cs">
+      <DependentUpon>LiveBidding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LiveBidding.aspx.designer.cs">
+      <DependentUpon>LiveBidding.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>

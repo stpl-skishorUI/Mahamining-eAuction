@@ -12,7 +12,7 @@
     <div class="breadcrumb_outer text-lg-end" id="btnGroupCRUD" style="background-color: #fff; border-bottom: solid 1px #f1f1f1;">
         <div class="top-btn-group text-lg-end text-center">
             <button type="button" data-button="print" id="btnPrint" class="btn dept_submit">
-                <img src="images/printing.svg" class="" alt="" /><span class="font-weight-normal">Make Payment</span></button>
+                <img src="images/wallet_2.svg" class="" alt="" /><span class="font-weight-normal">Make Payment</span></button>
         </div>
     </div>
     <div class="dash_outer">

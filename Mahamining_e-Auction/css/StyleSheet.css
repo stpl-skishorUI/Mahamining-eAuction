@@ -307,7 +307,7 @@ table.fold-table {
                 table.fold-table > tbody > tr.view > td:last-child:before,
                 table.fold-table > tbody > tr.view th:last-child:before {
                     position: absolute;
-                    top: 10px;
+                    top: calc(50% - 12px);
                     right: 10px;
                     margin-top: -2px;
                     content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAAG8AAABvAfGi3EMAAAEUSURBVChTvZC7SkNREEXXHB/EdwxYCzb+gIVgaWlhpa2FYEpRsJHgRRDEoJAUFoKpRBt7wU/w9RN+gEQIKj7uuE+4agKxzYLDPZzZe2bPpWsY1XSCnNUp2kf29j+J5xj3scArF9R9lTXvy0qdSXyYAT+V/ixgdoyzzpQvqtCfSdpJPM+g7+s2Qz87gReuFPJIp8SQF5sRWqmmo5qwrds0PaywaTeBXXunl3NSyjob6pj8Gg/SEd44JDCrNCUm7V7J3JrFyIl2evZ5GWuaWlGjGp/E6HOqLvNgd1zaV5T+mSKuJmVfkLCiSkPfgiItsWW3knqm0uBWNJq8XRNsT4bHToZI+6Qf4l8saK8na2jnNHvtOvANs1lW5U7/cMEAAAAASUVORK5CYII=');
@@ -482,6 +482,7 @@ table.fold-table {
         padding: 15px;
         background-color: #fff;
         border-radius: 10px;
+        min-height: calc(100vh - 130px);
     }
 
 .form-control {
@@ -641,6 +642,13 @@ button.dept_submit {
             border: none;
             font-size: 0.813em;
         }
+.generate_pwd .btn-link {
+   
+    font-size: 11px;
+    color: #5385FB;
+    padding: 0;
+    margin-bottom: 25px;
+}
 
 /* CSS for Login page ends */
 /* submit modal css start */
@@ -1305,4 +1313,35 @@ table.event_table {
     background: #EEF4FB;
 }
 
-/*stepper css start here*/
+/*stepper css end here*/
+
+/*LiveBidding css start here*/
+.liveBidding .eAuction-table .event_table.table td {
+    border-left: 0px;
+    background: #ffffff;
+    padding: 8px;
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-accent-bg: #DFEFFF;
+    
+}
+.liveBidding .eAuction-table table > .thead-light th {
+    padding: 8px;
+}
+.liveBidding .eAuction-table .event_table.table .bg-theme td {
+    background: #335F8E;
+    color: #fff;
+}
+.bg-theme .form-check-input:checked {
+    background-color: #335F8E;
+    border-color: #ffffff;
+}
+.btn-theme-light {
+    background: #DFEFFF;
+    color: #3072E5;
+}
+    .btn-theme-light:hover {
+        background: #b8d2ed;
+        color: #3072E5;
+    }
+/*LiveBidding css end here*/

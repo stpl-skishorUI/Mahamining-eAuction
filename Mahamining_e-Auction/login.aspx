@@ -55,7 +55,8 @@
             <div class="form-group">
                 <input type="text" class="form-control" id="captcha" placeholder="Enter Captcha" />
             </div>
-            <div class="generate_pwd" style="position: relative">
+            <div class="generate_pwd d-flex justify-content-between" style="position: relative">
+                <button type="button" class="btn btn-link" id="">New User Registration</button>
                 <button type="button" class="btn btn-link" id="sendSMS_obtn">Generate Password</button>
                 <div class="modal_sendsms" id="sendSMS" style="display: none;">
                     <div class="modal-dialog" role="document">
