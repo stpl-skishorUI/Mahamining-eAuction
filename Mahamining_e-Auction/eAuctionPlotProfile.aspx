@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="eAuctionPlotProfile.aspx.cs" Inherits="Mahamining_e_Auction.eAuctionPlotProfile" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/OuterMaster.Master" AutoEventWireup="true" CodeBehind="eAuctionPlotProfile.aspx.cs" Inherits="Mahamining_e_Auction.eAuctionPlotProfile" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
     <style>
@@ -9,7 +9,7 @@
         }
     </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="eAuctionModal">
         <div class="card p-0 border-0">
                 <div class="card-header px-4 eAc-ModHeader">
@@ -100,104 +100,104 @@
                             </div>
                             <div class="card border-0 shadow-none">
                                 <div class="card-body pl-2 pr-0">
-                                    <div class="row">
+                                    <div class="row g-1">
                                         <div class="col-md-6">
-                                            <div class="row">
+                                            <div class="row g-1">
                                                 <div class="col-5 pr-0">
                                                     <p class="mb-2">Plot Type </p>
                                                 </div>
                                                 <div class="col-7">
-                                                    <p class="font-weight-bold text-truncate mb-2" title="Quarry">: Quarry</p>
+                                                    <p class="fw-bold text-truncate mb-2" title="Quarry">: Quarry</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="row">
+                                        <div class="col-md-5 offset-md-1">
+                                            <div class="row g-1">
                                                 <div class="col-5 pr-0">
                                                     <p class="mb-2">Category </p>
                                                 </div>
                                                 <div class="col-7">
-                                                    <p class="font-weight-bold text-truncate mb-2" title="Rural">: Rural</p>
+                                                    <p class="fw-bold text-truncate mb-2" title="Rural">: Rural</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="row">
+                                            <div class="row g-1">
                                                 <div class="col-5 pr-0">
                                                     <p class="mb-2">Plot Name  </p>
                                                 </div>
                                                 <div class="col-7">
-                                                    <p class="font-weight-bold text-truncate mb-2" title="Text Varkute 217 to 302">: Text Varkute 217 to 302</p>
+                                                    <p class="fw-bold text-truncate mb-2" title="Text Varkute 217 to 302">: Text Varkute 217 to 302</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="row">
+                                        <div class="col-md-5 offset-md-1">
+                                            <div class="row g-1">
                                                 <div class="col-5 pr-0">
                                                     <p class="mb-2">District  </p>
                                                 </div>
                                                 <div class="col-7">
-                                                    <p class="font-weight-bold text-truncate mb-2" title="Satara">: Satara</p>
+                                                    <p class="fw-bold text-truncate mb-2" title="Satara">: Satara</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="row">
+                                            <div class="row g-1">
                                                 <div class="col-5 pr-0">
                                                     <p class="mb-2">Plot Location  </p>
                                                 </div>
                                                 <div class="col-7">
-                                                    <p class="font-weight-bold text-truncate mb-2" title="River">: River</p>
+                                                    <p class="fw-bold text-truncate mb-2" title="River">: River</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="row">
+                                        <div class="col-md-5 offset-md-1">
+                                            <div class="row g-1">
                                                 <div class="col-5 pr-0">
                                                     <p class="mb-2">Taluka / CTSO  </p>
                                                 </div>
                                                 <div class="col-7">
-                                                    <p class="font-weight-bold text-truncate mb-2" title="Man">: Man</p>
+                                                    <p class="fw-bold text-truncate mb-2" title="Man">: Man</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="row">
+                                            <div class="row g-1">
                                                 <div class="col-5 pr-0">
                                                     <p class="mb-2">River/Coast Name </p>
                                                 </div>
                                                 <div class="col-7">
-                                                    <p class="font-weight-bold text-truncate mb-2" title="Krishna">: Krishna</p>
+                                                    <p class="fw-bold text-truncate mb-2" title="Krishna">: Krishna</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="row">
+                                        <div class="col-md-5 offset-md-1">
+                                            <div class="row g-1">
                                                 <div class="col-5 pr-0">
                                                     <p class="mb-2">Village  </p>
                                                 </div>
                                                 <div class="col-7">
-                                                    <p class="font-weight-bold text-truncate mb-2" title="Varkute">: Varkute</p>
+                                                    <p class="fw-bold text-truncate mb-2" title="Varkute">: Varkute</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="row">
+                                            <div class="row g-1">
                                                 <div class="col-5 pr-0">
                                                     <p class="mb-2">Plot Ownership  </p>
                                                 </div>
                                                 <div class="col-7">
-                                                    <p class="font-weight-bold text-truncate mb-2" title="Government">: Government</p>
+                                                    <p class="fw-bold text-truncate mb-2" title="Government">: Government</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="row">
+                                        <div class="col-md-5 offset-md-1">
+                                            <div class="row g-1">
                                                 <div class="col-5 pr-0">
                                                     <p class="mb-2">Area </p>
                                                 </div>
                                                 <div class="col-7">
-                                                    <p class="font-weight-bold text-truncate mb-2" title="5.4 (Hectare)">: 5.4 (Hectare)</p>
+                                                    <p class="fw-bold text-truncate mb-2" title="5.4 (Hectare)">: 5.4 (Hectare)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -216,7 +216,7 @@
                                         <div class="carousel-item active">
                                             <div class="row">
                                                 <div class="col-4">
-                                                    <div class="media p-0 rounded my-3 border border-primary d-flex align-items-stretch">
+                                                    <%--<div class="media p-0 rounded my-3 border border-primary d-flex align-items-stretch">
                                                         <p class="py-1 pl-2 m-1 font-weight-bold1">01</p>
                                                         <div class="media-body p-2">
                                                             <p class="mb-1 font-weight-bold">Environment Clearance</p>
@@ -225,69 +225,39 @@
                                                         <span class="p-2 bg-orange text-white d-flex align-items-center">
                                                             <span class="fa fa-file-alt fa-xs"></span>
                                                         </span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="media p-0 rounded my-3 border border-primary d-flex align-items-stretch">
-                                                        <p class="py-1 pl-2 m-1 font-weight-bold1">01</p>
-                                                        <div class="media-body p-2">
-                                                            <p class="mb-1 font-weight-bold">Environment Clearance</p>
+                                                    </div>--%>
+                                                   <div class="d-flex p-0 rounded my-3 border border-primary d-flex align-items-stretch">
+                                                        <p class="py-3 ps-3  font-weight-bold1">01</p>
+                                                        <div class="flex-grow-1 p-3">
+                                                            <p class="mb-1 fw-bold">Environment Clearance</p>
                                                             <p class="mb-0 ">EN052522</p>
                                                         </div>
-                                                        <span class="p-2 bg-orange text-white d-flex align-items-center">
-                                                            <span class="fa fa-file-alt fa-xs"></span>
+                                                        <span class="p-3 bg-orange text-white d-flex align-items-center">
+                                                            <span class="fa fa-file-alt "></span>
                                                         </span>
                                                     </div>
                                                 </div>
                                                 <div class="col-4">
-                                                    <div class="media p-0 rounded my-3 border border-primary d-flex align-items-stretch">
-                                                        <p class="py-1 pl-2 m-1 font-weight-bold1">01</p>
-                                                        <div class="media-body p-2">
-                                                            <p class="mb-1 font-weight-bold">Environment Clearance</p>
+                                                    <div class="d-flex p-0 rounded my-3 border border-primary d-flex align-items-stretch">
+                                                        <p class="py-3 ps-3  font-weight-bold1">01</p>
+                                                        <div class="flex-grow-1 p-3">
+                                                            <p class="mb-1 fw-bold">Environment Clearance</p>
                                                             <p class="mb-0 ">EN052522</p>
                                                         </div>
-                                                        <span class="p-2 bg-orange text-white d-flex align-items-center">
-                                                            <span class="fa fa-file-alt fa-xs"></span>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <div class="media p-0 rounded my-3 border border-primary d-flex align-items-stretch">
-                                                        <p class="py-1 pl-2 m-1 font-weight-bold1">01</p>
-                                                        <div class="media-body p-2">
-                                                            <p class="mb-1 font-weight-bold">Environment Clearance</p>
-                                                            <p class="mb-0 ">EN052522</p>
-                                                        </div>
-                                                        <span class="p-2 bg-orange text-white d-flex align-items-center">
-                                                            <span class="fa fa-file-alt fa-xs"></span>
+                                                        <span class="p-3 bg-orange text-white d-flex align-items-center">
+                                                            <span class="fa fa-file-alt "></span>
                                                         </span>
                                                     </div>
                                                 </div>
                                                 <div class="col-4">
-                                                    <div class="media p-0 rounded my-3 border border-primary d-flex align-items-stretch">
-                                                        <p class="py-1 pl-2 m-1 font-weight-bold1">01</p>
-                                                        <div class="media-body p-2">
-                                                            <p class="mb-1 font-weight-bold">Environment Clearance</p>
+                                                    <div class="d-flex p-0 rounded my-3 border border-primary d-flex align-items-stretch">
+                                                        <p class="py-3 ps-3  font-weight-bold1">01</p>
+                                                        <div class="flex-grow-1 p-3">
+                                                            <p class="mb-1 fw-bold">Environment Clearance</p>
                                                             <p class="mb-0 ">EN052522</p>
                                                         </div>
-                                                        <span class="p-2 bg-orange text-white d-flex align-items-center">
-                                                            <span class="fa fa-file-alt fa-xs"></span>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="media p-0 rounded my-3 border border-primary d-flex align-items-stretch">
-                                                        <p class="py-1 pl-2 m-1 font-weight-bold1">01</p>
-                                                        <div class="media-body p-2">
-                                                            <p class="mb-1 font-weight-bold">Environment Clearance</p>
-                                                            <p class="mb-0 ">EN052522</p>
-                                                        </div>
-                                                        <span class="p-2 bg-orange text-white d-flex align-items-center">
-                                                            <span class="fa fa-file-alt fa-xs"></span>
+                                                        <span class="p-3 bg-orange text-white d-flex align-items-center">
+                                                            <span class="fa fa-file-alt "></span>
                                                         </span>
                                                     </div>
                                                 </div>
@@ -296,14 +266,54 @@
                                         <div class="carousel-item">
                                             <div class="row">
                                                 <div class="col-4">
-                                                    <div class="media p-0 rounded my-3 border border-primary d-flex align-items-stretch">
-                                                        <p class="py-1 pl-2 m-1 font-weight-bold1">01</p>
-                                                        <div class="media-body p-2">
-                                                            <p class="mb-1 font-weight-bold">Environment Clearance</p>
+                                                    <div class="d-flex p-0 rounded my-3 border border-primary d-flex align-items-stretch">
+                                                        <p class="py-3 ps-3  font-weight-bold1">01</p>
+                                                        <div class="flex-grow-1 p-3">
+                                                            <p class="mb-1 fw-bold">Environment Clearance</p>
                                                             <p class="mb-0 ">EN052522</p>
                                                         </div>
-                                                        <span class="p-2 bg-orange text-white d-flex align-items-center">
-                                                            <span class="fa fa-file-alt fa-xs"></span>
+                                                        <span class="p-3 bg-orange text-white d-flex align-items-center">
+                                                            <span class="fa fa-file-alt "></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="d-flex p-0 rounded my-3 border border-primary d-flex align-items-stretch">
+                                                        <p class="py-3 ps-3  font-weight-bold1">01</p>
+                                                        <div class="flex-grow-1 p-3">
+                                                            <p class="mb-1 fw-bold">Environment Clearance</p>
+                                                            <p class="mb-0 ">EN052522</p>
+                                                        </div>
+                                                        <span class="p-3 bg-orange text-white d-flex align-items-center">
+                                                            <span class="fa fa-file-alt "></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="d-flex p-0 rounded my-3 border border-primary d-flex align-items-stretch">
+                                                        <p class="py-3 ps-3  font-weight-bold1">01</p>
+                                                        <div class="flex-grow-1 p-3">
+                                                            <p class="mb-1 fw-bold">Environment Clearance</p>
+                                                            <p class="mb-0 ">EN052522</p>
+                                                        </div>
+                                                        <span class="p-3 bg-orange text-white d-flex align-items-center">
+                                                            <span class="fa fa-file-alt "></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="d-flex p-0 rounded my-3 border border-primary d-flex align-items-stretch">
+                                                        <p class="py-3 ps-3  font-weight-bold1">01</p>
+                                                        <div class="flex-grow-1 p-3">
+                                                            <p class="mb-1 fw-bold">Environment Clearance</p>
+                                                            <p class="mb-0 ">EN052522</p>
+                                                        </div>
+                                                        <span class="p-3 bg-orange text-white d-flex align-items-center">
+                                                            <span class="fa fa-file-alt "></span>
                                                         </span>
                                                     </div>
                                                 </div>

@@ -174,13 +174,13 @@
                                             <td><p class="mb-0 fw-bold small">UOM</p></td>
                                             <td><p class="mb-0 fw-bold small">: Nos </p></td>
                                             <td><p class="mb-0 fw-bold small">My Bid</p></td>
-                                            <td><p class="mb-0 fw-bold small">: 0 Rs <i class="fa fa-sm mx-1 fa-circle text-primary"></i></p></td>
+                                            <td><p class="mb-0 fw-bold small">: 0 Rs <img src="images/ManualBid.svg" class="ms-2" /></p></td>
                                         </tr>
                                         <tr class="">
                                             <td><p class="mb-0 fw-bold small">Rank</p></td>
                                             <td><p class="mb-0 fw-bold small">: 0 </p></td>
                                             <td><p class="mb-0 fw-bold small">Highest Bid</p></td>
-                                            <td><p class="mb-0 fw-bold small">: 0 Rs <i class="fa fa-sm mx-1 fa-circle text-primary"></i></p></td>
+                                            <td><p class="mb-0 fw-bold small">: 0 Rs <img src="images/ManualBid.svg" class="ms-2" /> </p></td>
                                         </tr>
                                         <tr class="">
                                             <td><p class="mb-0 fw-bold small">Start Time</p></td>
@@ -229,13 +229,13 @@
                                                 <div class="row g-1">
                                                     <div class="col-md-auto mb-2">
                                                         <button type="button" name="" class="btn btn-sm px-2 btn-theme fw-light text-uppercase shadow-none" value=""> Click Here</button>
-                                                        <button type="button" name="" class="btn btn-sm px-2 btn-theme-light mx-1 shadow-none" value=""> <i class="fa fa-camera"></i> </button>
+                                                        <button type="button" name="" class="btn btn-sm p-0 btn-theme-light1 mx-1 shadow-none" value=""> <img src="images/camera1.svg" class="" /> </button>
                                                     </div>
                                                     <div class="col-md-auto mb-2 align-self-center">
-                                                        <p class="mb-0 fw-bold mx-1"><i class="fa fa-sm mx-1 fa-circle text-success"></i> Autobid</p>
+                                                        <p class="mb-0 fw-bold mx-1"><img src="images/AutoBid.svg" class="mx-1" /> Autobid</p>
                                                     </div>
                                                     <div class="col-md-auto mb-2 align-self-center" >
-                                                        <p class="mb-0 fw-bold mx-1"><i class="fa fa-sm mx-1 fa-circle text-primary"></i> Manual bid</p>
+                                                        <p class="mb-0 fw-bold mx-1"><img src="images/ManualBid.svg" class="mx-1" /> Manual bid</p>
                                                     </div>
                                                     <div class="col-md-auto mb-2 align-self-center">
                                                         <a href="#" class="fw-bold mb-0 mx-1">Bid History</a>

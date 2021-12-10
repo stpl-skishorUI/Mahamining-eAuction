@@ -39,7 +39,7 @@
                         </select>
                     </div>
                     <div class="col-sm">
-                        <input type="text" class="form-control" placeholder="Search" />
+                        <input type="text" class="form-control border rounded" placeholder="Search" />
                     </div>
                     <div class="col-sm-auto">
                         <button type="button" class="btn btn-apply"><i class="fas fa-search me-2"></i>Search </button>
@@ -54,10 +54,10 @@
             <div class="eAuctiontabs">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="activeTenders-tab" data-bs-toggle="tab" data-bs-target="#activeTenders" type="button" role="tab" aria-controls="activeTenders" aria-selected="true">Active Tenders - <span class="font-weight-bold">23</span></button>
+                        <button class="nav-link active" id="activeTenders-tab" data-bs-toggle="tab" data-bs-target="#activeTenders" type="button" role="tab" aria-controls="activeTenders" aria-selected="true">Active Tenders - <span class="fw-bold">23</span></button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="upcomingTenders-tab" data-bs-toggle="tab" data-bs-target="#upcomingTenders" type="button" role="tab" aria-controls="upcomingTenders" aria-selected="false">Upcoming Tenders - <span class="font-weight-bold">20</span></button>
+                        <button class="nav-link" id="upcomingTenders-tab" data-bs-toggle="tab" data-bs-target="#upcomingTenders" type="button" role="tab" aria-controls="upcomingTenders" aria-selected="false">Upcoming Tenders - <span class="fw-bold">20</span></button>
                     </li>
                     <div class="ms-auto">
                         <button class="btn btn-primary btn-sm text-uppercase px-3 py-1 shadow-none" style="margin-top: -4px;">Participate</button>
@@ -97,7 +97,7 @@
                                                 <td>
                                                     <span>18/10/2020</span><br />
                                                     <span>10:00:00</span><br />
-                                                    <small class="text-warning">1 day remaining</small>
+                                                    <small class="text-orange blink_me">1 day remaining</small>
                                                 </td>
                                                 <td>
                                                     <span>12/10/2020</span><br>
@@ -131,7 +131,7 @@
                                                                         <th class="text-center">Area</th>
                                                                         <th class="text-center">Allowed Quantity<br />
                                                                             In Brass</th>
-                                                                        <th class="text-center">Tender Fee/<br />
+                                                                        <th class="text-center" style="max-width: 100px">Tender Fee/<br />
                                                                             Application Fee</th>
                                                                         <th class="text-center">Security Deposit</th>
                                                                         <th class="text-center">Offset Value</th>

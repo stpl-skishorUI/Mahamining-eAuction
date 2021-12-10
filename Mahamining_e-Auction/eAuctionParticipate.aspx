@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="table-responsive eAuction-table eAuction-table-height eAuction-table-border rounded mb-5">
-                    <table class="mb-0 table table-hover table-bordered border-secondary">
+                    <table class="mb-0 table table-hover event_table">
                         <thead class="thead-light">
                             <tr class="align-middle">
                                 <th class="text-center">Sr.No</th>

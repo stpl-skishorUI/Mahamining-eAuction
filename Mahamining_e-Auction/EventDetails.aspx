@@ -395,10 +395,11 @@
                                                         Longitude</th>
                                                     <th scope="col">Mineral</th>
                                                     <th scope="col">Area</th>
-                                                    <th scope="col">Allowed Quantity</th>
-                                                    <th scope="col">Tender Fee / Application Free</th>
+                                                    <th scope="col" style="max-width: 100px;">Allowed Quantity <small>(Brass)</small></th>
+                                                    <th scope="col" style="max-width: 100px;">Tender Fee / Application Free</th>
                                                     <th scope="col">Security Deposit</th>
-                                                    <th scope="col">Offset Value</th>
+                                                    <th scope="col" style="min-width: 80px;">Offset Value</th>
+                                                    <th scope="col" style="max-width: 60px">View Plot Details</th>
                                                     <th scope="col">Select</th>
                                                 </tr>
                                             </thead>
@@ -416,8 +417,9 @@
                                                     <td>500</td>
                                                     <td>593543</td>
                                                     <td>₹ 2000/-</td>
-                                                    <td>₹ 66228 /-</td>
+                                                    <td>₹ 66228/-</td>
                                                     <td>₹ 26,298/-</td>
+                                                    <td class="text-center"><a href="#" class="mx-1"><i class="fa fa-eye my-1"></i></a></td>
                                                     <td class="text-center">
                                                         <input class="mr-0 " type="checkbox" data-id="" id="">
                                                     </td>
@@ -436,6 +438,7 @@
                                                     <td>₹ 2000/-</td>
                                                     <td>₹ 66228 /-</td>
                                                     <td>₹ 26,298/-</td>
+                                                    <td class="text-center"><a href="#" class="mx-1"><i class="fa fa-eye my-1"></i></a></td>
                                                     <td class="text-center">
                                                         <input class="mr-0 " type="checkbox" data-id="" id="">
                                                     </td>
@@ -454,6 +457,7 @@
                                                     <td>₹ 2000/-</td>
                                                     <td>₹ 66228 /-</td>
                                                     <td>₹ 26,298/-</td>
+                                                    <td class="text-center"><a href="#" class="mx-1"><i class="fa fa-eye my-1"></i></a></td>
                                                     <td class="text-center">
                                                         <input class="mr-0 " type="checkbox" data-id="" id="">
                                                     </td>
@@ -473,6 +477,7 @@
                                                     <td>₹ 2000/-</td>
                                                     <td>₹ 66228 /-</td>
                                                     <td>₹ 26,298/-</td>
+                                                    <td class="text-center"><a href="#" class="mx-1"><i class="fa fa-eye my-1"></i></a></td>
                                                     <td class="text-center">
                                                         <input class="mr-0 " type="checkbox" data-id="" id="">
                                                     </td>
@@ -492,6 +497,7 @@
                                                     <td>₹ 2000/-</td>
                                                     <td>₹ 66228 /-</td>
                                                     <td>₹ 26,298/-</td>
+                                                    <td class="text-center"><a href="#" class="mx-1"><i class="fa fa-eye my-1"></i></a></td>
                                                     <td class="text-center">
                                                         <input class="mr-0 " type="checkbox" data-id="" id="">
                                                     </td>
@@ -510,6 +516,7 @@
                                                     <td>₹ 2000/-</td>
                                                     <td>₹ 66228 /-</td>
                                                     <td>₹ 26,298/-</td>
+                                                    <td class="text-center"><a href="#" class="mx-1"><i class="fa fa-eye my-1"></i></a></td>
                                                     <td class="text-center">
                                                         <input class="mr-0 " type="checkbox" data-id="" id="">
                                                     </td>
@@ -528,6 +535,7 @@
                                                     <td>₹ 2000/-</td>
                                                     <td>₹ 66228 /-</td>
                                                     <td>₹ 26,298/-</td>
+                                                    <td class="text-center"><a href="#" class="mx-1"><i class="fa fa-eye my-1"></i></a></td>
                                                     <td class="text-center">
                                                         <input class="mr-0 " type="checkbox" data-id="" id="">
                                                     </td>
@@ -546,6 +554,7 @@
                                                     <td>₹ 2000/-</td>
                                                     <td>₹ 66228 /-</td>
                                                     <td>₹ 26,298/-</td>
+                                                    <td class="text-center"><a href="#" class="mx-1"><i class="fa fa-eye my-1"></i></a></td>
                                                     <td class="text-center">
                                                         <input class="mr-0 " type="checkbox" data-id="" id="">
                                                     </td>
@@ -564,7 +573,7 @@
                                 </fieldset>
                                 <fieldset>
                                     <div class="row g-2">
-                                        <div class="col-md-9">
+                                        <div class="col-md">
                                             <div class=" eAuction-table-border rounded  mb-3 eAuction-table-height">
                                                 <table class="table table-bordered rounded event_table et_2 mb-0">
                                                     <thead class="thead-dark">
@@ -577,7 +586,7 @@
                                                             <th scope="col">Latitude / Longitude</th>
                                                             <th scope="col">Mineral</th>
                                                             <th scope="col">Area</th>
-                                                            <th scope="col">Allowed Quantity</th>
+                                                            <th scope="col">Allowed Quantity <small>(Brass)</small></th>
                                                             <th scope="col">Security Deposit</th>
                                                             <th scope="col">Offset Value</th>
                                                             <th scope="col">Select</th>
@@ -597,35 +606,35 @@
                                                             <td>₹ 66228/-</td>
                                                             <td>₹ 26,298/-</td>
                                                             <td class="text-center">
-                                                                <input class="mr-0 " type="checkbox" data-id="" id="" checked>
+                                                                <input class="mr-0 " type="checkbox" data-id="" id="" checked="">
                                                             </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-auto">
                                             <div class="card primaryCard">
-                                                <div class="card-body d-flex justify-content-between p-3">
-                                                    <div class="text-start">
+                                                <div class="card-body text-center p-3">
+                                                    <div class="text-center">
                                                         <h5 class="text-uppercase">Pay EMD</h5>
                                                         <p class="mb-0 text-uppercase">Total Amount</p>
                                                         <h5 class="text-theme fw-bold mb-0">₹ 66228 /-</h5>
                                                     </div>
 
-                                                    <button class="btn btn-theme text-uppercase align-self-end">Pay Now</button>
+                                                    <button class="btn btn-sm btn-theme text-uppercase align-self-end mt-2 px-3">Pay Now</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-8">
                                             <div class="modal-instructions mt-4 text-start">
                                                 <ul class="text-danger small">
-                                                    <span class="fw-bold">Comment for Developer :</span>
+                                                    <span class="">Comment for Developer :</span>
                                                     <li>After clicking make payment, call should be done to check wallet balance is sufficient or not...</li>
-                                                    <li>Insufficient funds in your wallet to make the payment, request you to charge your wallet with sufficient funds...</li>
-                                                    <li>and gray out the above "MAKE PAYMENT" button</li>
+                                                    <li>In case of insufficient funds display message "Insufficient funds in your wallet to make the payment, request you to charge your wallet with sufficient funds...</li>
+                                                    <li>and gray out the above "PAY NOW" button</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -636,7 +645,7 @@
                                     <input type="button" name="make_payment" class="next action-button" value="Confirm" />--%>
                                 </fieldset>
                                 <fieldset>
-                                    <div class="eAuction-fold-table">
+                                    <div class="eAuction-fold-table text-start">
                                         <div class="table-responsive eAuction-table-border rounded mb-3">
                                             <table class="fold-table table eAuction-striped dashboard-table mb-0">
                                                 <thead class="thead-light">
@@ -684,7 +693,7 @@
                                                         </td>
                                                         <td>1 </td>
                                                         <td class="text-center">
-                                                            <p class="text-success mb-0">Paid <i class="fa fa-check-circle"></i></p>
+                                                            <p class="text-green mb-0">Paid <i class="fa fa-check-circle"></i></p>
                                                         </td>
 
                                                         <td class="cursorPointer" id="" data-id="">
@@ -706,7 +715,7 @@
                                                                                 <th class="text-center">Latitude/
                                                                             Longitude</th>
                                                                                 <th class="text-center">Area</th>
-                                                                                <th class="text-center">Allowed Quantity</th>
+                                                                                <th class="text-center">Allowed Quantity <small>(Brass)</small></th>
 
                                                                                 <th class="text-center">Security Deposit</th>
                                                                             </tr>

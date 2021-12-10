@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_11114" data-name="Group 11114" transform="translate(-859 -508)">
+    <g id="camera_1_" data-name="camera (1)" transform="translate(859 508)">
+      <path id="Path_11696" data-name="Path 11696" d="M4.5,0h15A4.5,4.5,0,0,1,24,4.5v15A4.5,4.5,0,0,1,19.5,24H4.5A4.5,4.5,0,0,1,0,19.5V4.5A4.5,4.5,0,0,1,4.5,0Z" fill="#dfefff"/>
+    </g>
+    <g id="photo-camera" transform="translate(864 460.667)">
+      <g id="Group_10343" data-name="Group 10343" transform="translate(0 53.333)">
+        <g id="Group_10342" data-name="Group 10342">
+          <path id="Path_11701" data-name="Path 11701" d="M11.959,55.083h-1.75a.29.29,0,0,1-.277-.2l-.184-.554a1.458,1.458,0,0,0-1.384-1H5.636a1.456,1.456,0,0,0-1.383,1l-.184.554a.292.292,0,0,1-.277.2H2.042A2.044,2.044,0,0,0,0,57.125v5.25a2.044,2.044,0,0,0,2.042,2.042h9.917A2.044,2.044,0,0,0,14,62.375v-5.25A2.044,2.044,0,0,0,11.959,55.083ZM7,63.25a3.5,3.5,0,1,1,3.5-3.5A3.5,3.5,0,0,1,7,63.25Z" transform="translate(0 -53.333)" fill="#3072e5"/>
+        </g>
+      </g>
+      <g id="Group_10345" data-name="Group 10345" transform="translate(4.667 57.416)">
+        <g id="Group_10344" data-name="Group 10344">
+          <path id="Path_11702" data-name="Path 11702" d="M173,202.667A2.336,2.336,0,0,0,170.667,205a.292.292,0,1,0,.583,0,1.752,1.752,0,0,1,1.75-1.75.292.292,0,1,0,0-.583Z" transform="translate(-170.667 -202.667)" fill="#3072e5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

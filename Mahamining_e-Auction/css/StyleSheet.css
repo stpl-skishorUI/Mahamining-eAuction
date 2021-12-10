@@ -1,5 +1,5 @@
 ﻿body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #eee;
 }
 
@@ -16,7 +16,30 @@
 .text-theme {
     color: var(--main-color);
 }
+.text-orange {
+    color: var(--orange-color);
+}
+.text-green {
+    color: #27c727;
+}
+.main-card .col-form-label,
+.main-card .form-check-label {
+    font-size: .95rem;
+}
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
 
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.eAuction-fold-table .btn-outline-primary {
+    color: #0d6efd;
+    border-color: #878787;
+    background: #fff;
+}
 #topbar {
     font-size: 0.9rem;
     position: fixed;
@@ -346,7 +369,7 @@ table.fold-table {
 /*custom css added for table*/
 
 .eAuction-fold-table table.fold-table > tbody > tr.view.open {
-    background: #DAEBF9;
+    background: #E8EFF8;
     color: #000000;
     font-weight: normal;
 }
@@ -392,7 +415,10 @@ table.fold-table {
 .eAuction-table .event_table.table td {
     background: #EEF4FB;
     border-left: 1px solid #ccc;
-}.eAuction-table .event_table.table td:first-child {
+    color: #111111;
+    font-weight: 500;
+}
+.eAuction-table .event_table.table td:first-child {
     border-left: 0px solid #ccc;
 }
 .eAuction-table-border {
@@ -453,7 +479,7 @@ table.fold-table {
 
 .eAucParticipate tbody > tr {
     background: #EEF4FB;
-    border-bottom: 2px solid #ffffff;
+    /*border-bottom: 2px solid #ffffff;*/
 }
 
 .table > :not(:first-child) {
@@ -521,14 +547,41 @@ table.fold-table {
 }
 
 button.dept_submit {
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
     border: 1px solid #C4C4C4;
     border-radius: 5px;
 }
-
 .dept_submit .fa-times {
+    background: #FE737C;
+    color: #fff;
+    padding: 3px 3px;
+    border-radius: 50%;
+    transform: rotateZ(270deg);
+    font-size: 10px;
+    margin: 0px 6px 0 0;
+    position: relative;
+    top: -1px;
+    width: 18px;
+    height: 18px;
+    line-height: 13px;
+}
+.dept_submit .fa-sign-out-alt {
+    background: #24BE9E;
+    color: #fff;
+    padding: 3px 3px;
+    border-radius: 50%;
+    transform: rotateZ(270deg);
+    font-size: 10px;
+    margin: 0px 6px 0 0;
+    position: relative;
+    top: -1px;
+    width: 18px;
+    height: 18px;
+    line-height: 13px;
+}
+/*.dept_submit .fa-times {
     background: #FE737C;
     color: #fff;
     padding: 5px 5px;
@@ -540,9 +593,9 @@ button.dept_submit {
     top: -2px;
     width: 20px;
     height: 20px;
-}
+}*/
 
-.dept_submit .fa-sign-out-alt {
+/*.dept_submit .fa-sign-out-alt {
     background: #24BE9E;
     color: #fff;
     padding: 5px 5px;
@@ -554,7 +607,7 @@ button.dept_submit {
     top: -2px;
     width: 20px;
     height: 20px;
-}
+}*/
 
 /*///////////// CSS for Login page Starts //////////////*/
 .upper-body {
@@ -1203,22 +1256,22 @@ table.event_table {
     text-align: left;
 }
 .event_table.et_2.table td, .event_table.et_2.table th {
-    color: #000000;
+    color: #111111;
 }
 .event_table.table .thead-dark th {
-    color: #000000;
-    background-color: #c0d3e6;
-    border-color: #c0d3e6;
+    color: #111111;
+    background-color: #D1DFEF;
+    border-color: #D1DFEF;
     font-weight: 600;
     font-size: .8rem;
     padding: 10px 5px;
 }
 .event_table.et_2.table td, .event_table.et_2.table th {
-    color: #000000;
+    color: #111111;
 }
 .event_table.table td, .event_table.table th {
     /*color: #2680EB;*/
-    font-size: .8rem;
+    font-size: .78rem;
     font-weight: 500;
 }
 .evt_upload_grp .form-group {

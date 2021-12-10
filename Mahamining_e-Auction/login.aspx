@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>e-Auction Login</title>
 </head>
 <body>
@@ -39,7 +41,8 @@
             </div>
             <div class="form-group" style="position: relative;">
                 <input type="password" class="form-control" id="password" placeholder="Password" />
-                <span toggle="#password" class="fa fa-fw fa-eye field-icon toggle-password" style="position: absolute; right: 10px; top: 10px; z-index: 2;"></span>
+                <i class="fas fa-eye" style="position: absolute; right: 10px; top: 10px; z-index: 2;"></i>
+                <%--<span toggle="#password" class="fa fa-fw fas-eye field-icon toggle-password" style="position: absolute; right: 10px; top: 10px; z-index: 2;"></span>--%>
             </div>
             <div class="form-group">
                 <div class="input-group">
@@ -56,9 +59,9 @@
                 <input type="text" class="form-control" id="captcha" placeholder="Enter Captcha" />
             </div>
             <div class="generate_pwd d-flex justify-content-between" style="position: relative">
-                <button type="button" class="btn btn-link" id="">New User Registration</button>
-                <button type="button" class="btn btn-link" id="sendSMS_obtn">Generate Password</button>
-                <div class="modal_sendsms" id="sendSMS" style="display: none;">
+                <button type="button" class="btn btn-link text-decoration-none px-2" id="">New User Registration</button>
+                <button type="button" class="btn btn-link text-decoration-none px-2" id="">Forgot Password</button>
+                <%--<div class="modal_sendsms" id="sendSMS" style="display: none;">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header  ">
@@ -79,8 +82,6 @@
                                         <div class="genpwd_footer">
                                             <small class="timerContainer d-none">Time left = <span id="timer"></span></small>
                                             <button type="button" data-button="forget" class="btn btn-sm btn-primary">Send SMS</button>
-                                            <%--<span> OR </span>
-                                                            <button type="button" class="btn btn-sm btn-primary" data-button="otp-login" id="loginotp_btn">Login OTP</button>--%>
                                             <input type="hidden" class="btn btn-sm btn-primary" data-button="otp-login" id="loginotp_btn" />
                                         </div>
                                     </div>
@@ -120,7 +121,7 @@
 
                         </div>
                     </div>
-                </div>
+                </div>--%>
             </div>
             <div class="form-group text-center">
                 <button type="submit" id="loginuser" class="btn-login">Login</button>
