@@ -1398,3 +1398,33 @@ table.event_table {
         color: #3072E5;
     }
 /*LiveBidding css end here*/
+
+/*PaymentStatus.aspx css start here*/
+.cardGradient .card .card-body {
+    color: #ffffff;
+    border-radius: 4px;
+    position:relative;
+}
+    .cardGradient .card .card-body img{
+        position:absolute;
+        right:10px;
+        bottom:10px;
+        height:50px;
+    }
+    .cardGradient .card .card-body.card-blue {
+        background: transparent linear-gradient(116deg, #59E7FE 0%, #7D81FF 100%);
+        box-shadow: 0px 7px 7px #7d81ff55;
+    }
+    .cardGradient .card .card-body.card-orange {
+        background-image: linear-gradient(135deg, #FEAB73 0%, #FF6B88 100%);
+        box-shadow: 0px 7px 7px #FF6B8855;
+    }
+    .cardGradient .card .card-body.card-green {
+        background-image: linear-gradient(135deg, #44DEC5 0%, #4DBCF6 100%);
+        box-shadow: 0px 7px 7px #4DBCF655;
+    }
+    .cardGradient .card .card-body.card-purple {
+        background-image: linear-gradient(135deg, #F482ED 0%, #727CFE 100%);
+        box-shadow: 0px 7px 7px #727CFE55;
+    }
+/*PaymentStatus.aspx css end here*/
