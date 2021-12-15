@@ -99,6 +99,7 @@
     <Content Include="LiveBidding.aspx" />
     <Content Include="login.aspx" />
     <Content Include="MakePayment.aspx" />
+    <Content Include="PaymentHistory.aspx" />
     <Content Include="PaymentStatus.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -186,6 +187,13 @@
     </Compile>
     <Compile Include="OuterMaster.Master.designer.cs">
       <DependentUpon>OuterMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentHistory.aspx.cs">
+      <DependentUpon>PaymentHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentHistory.aspx.designer.cs">
+      <DependentUpon>PaymentHistory.aspx</DependentUpon>
     </Compile>
     <Compile Include="PaymentStatus.aspx.cs">
       <DependentUpon>PaymentStatus.aspx</DependentUpon>
