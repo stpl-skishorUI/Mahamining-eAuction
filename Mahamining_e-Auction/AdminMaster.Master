@@ -73,6 +73,18 @@
                                     </a>
                                 </li>
                                 <li class="active-new">
+                                    <a title="Main Dashboard" href="PaymentStatus.aspx">
+                                        <i class="fas fa-star"></i>
+                                        <span class="menu-text">Payment Status</span>
+                                    </a>
+                                </li>
+                                <li class="active-new">
+                                    <a title="Main Dashboard" href="PaymentHistory.aspx">
+                                        <i class="fas fa-database"></i>
+                                        <span class="menu-text">Payment History</span>
+                                    </a>
+                                </li>
+                                <li class="active-new">
                                     <a title="Main Dashboard" href="login.aspx">
                                         <i class="fas fa-star"></i>
                                         <span class="menu-text">Login</span>

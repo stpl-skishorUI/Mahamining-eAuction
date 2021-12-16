@@ -181,9 +181,9 @@
                                     <p>View Plot:</p>
                                 </div>
                                 <div class="col-auto eAuction-fold-table">
-                                    <button class="btn btn-sm btn-outline-primary py-0 px-1 lh-sm">
+                                    <a href="eAuctionPlotProfile.aspx" class="btn btn-sm btn-outline-primary py-0 px-1 lh-sm">
                                         <i class="fa fa-sm fa-eye "></i>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -351,9 +351,9 @@
                                     <p>View Plot:</p>
                                 </div>
                                 <div class="col-auto eAuction-fold-table">
-                                    <button class="btn btn-sm btn-outline-primary py-0 px-1 lh-sm">
+                                    <a href="eAuctionPlotProfile.aspx" class="btn btn-sm btn-outline-primary py-0 px-1 lh-sm">
                                         <i class="fa fa-sm fa-eye "></i>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -541,9 +541,9 @@
                                     <p>View Plot:</p>
                                 </div>
                                 <div class="col-auto eAuction-fold-table">
-                                    <button class="btn btn-sm btn-outline-primary py-0 px-1 lh-sm">
+                                    <a href="eAuctionPlotProfile.aspx" class="btn btn-sm btn-outline-primary py-0 px-1 lh-sm">
                                         <i class="fa fa-sm fa-eye "></i>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
