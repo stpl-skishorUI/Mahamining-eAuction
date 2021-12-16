@@ -11,6 +11,7 @@
     --font-color: #37597d;
     --table-head-color: #e8f3ff;
     --table-border-color: #94c7ff;
+    --blue-color: #2F9CFC;
 }
 
 .text-theme {
@@ -18,6 +19,9 @@
 }
 .text-orange {
     color: var(--orange-color);
+}
+.text-blue {
+    color: var(--blue-color);
 }
 .text-green {
     color: #27c727;
@@ -1500,3 +1504,28 @@ table.event_table {
         top: 50%;
     }
 /*PaymentStatus.aspx css end here*/
+/*PaymentHistory.aspx css start here*/
+.paymentHistoryCards .card-header {
+    background: #004C73;
+    color: #fff;
+    padding-block: 20px;
+}
+.paymentHistoryCards .card-header p{
+    margin-bottom: 0px;
+}
+.paymentHistoryCards {
+        font-size: .825rem;
+    }
+.paymentHistoryCards p {
+    margin-bottom: 4px;
+}
+.border-bottom-success {
+    border-bottom: 2px solid rgb(39, 199, 39)!important;
+}
+.border-bottom-orange {
+    border-bottom: 2px solid var(--orange-color) !important;
+}
+.border-bottom-blue {
+    border-bottom: 2px solid var(--blue-color) !important;
+}
+/*PaymentHistory.aspx css end here*/
