@@ -8,7 +8,7 @@
         <div class="row mb-4">
             <div class="col-md-7">
                 <div class="AccountDetailCard">
-                    <div class="card card-body border-blue">
+                    <div class="card card-body border-blue mb-3">
                         <div class="row">
                             <div class="col-sm-5">
                                 <p class="text-gray">Beneficially Name :</p>
@@ -44,8 +44,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 d-flex">
-                <div class="walletBlue rounded w-100 d-flex align-items-center justify-content-center">
+            <div class="col-md-5 d-flex mb-3">
+                <div class="walletBlue rounded w-100 d-flex align-items-center justify-content-center p-3 ">
                     <div class="d-flex">
                         <div class="flex-shrink-0">
                             <img src="images/WalletBalance.svg" class="me-3" alt="wallet">
