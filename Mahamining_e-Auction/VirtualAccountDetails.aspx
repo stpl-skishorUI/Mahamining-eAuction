@@ -6,45 +6,64 @@
     <div class="card-body">
         <h5 class="text-theme mb-3">Virtual Account Details</h5>
         <div class="row mb-4">
-            <div class="col-md-7">
+            <div class="col-md-8">
                 <div class="AccountDetailCard">
-                    <div class="card card-body border-blue mb-3 pb-2">
+                    <div class="card card-body border-blue mb-3">
                         <div class="row">
-                            <div class="col-sm-5">
-                                <p class="text-gray">Beneficially Name :</p>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <p class="text-gray">Beneficially Name</p>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p class="fw-500">: Amol Pawar</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <p class="text-gray">Account No.</p>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p class="fw-500">: 6010558963001</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <p class="text-gray">IFSC Code</p>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p class="fw-500">: MAH151515</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <p class="text-gray mb-0">Bank Name </p>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p class="fw-500 mb-0">: Bank Of Maharashtra</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-sm-7">
-                                <p class="fw-500">Amol Pawar</p>
+                            <div class="col-md-6">
+                                <div class="walletBlue rounded w-100 d-flex align-items-center justify-content-center p-2">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0 d-flex align-items-center">
+                                            <img src="images/WalletBalance.svg" class="me-3" alt="wallet">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3 text-white">
+                                            <p class="mb-2">Wallet Balance</p>
+                                            <h1 class="fw-bold">₹ 1,00,000</h1>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-5">
-                                <p class="text-gray">Account No. :</p>
-                            </div>
-                            <div class="col-sm-7">
-                                <p class="fw-500">6010558963001</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-5">
-                                <p class="text-gray">IFSC Code :</p>
-                            </div>
-                            <div class="col-sm-7">
-                                <p class="fw-500">MAH151515</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-5">
-                                <p class="text-gray">Bank Name :</p>
-                            </div>
-                            <div class="col-sm-7">
-                                <p class="fw-500">Bank Of Maharashtra</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
+
             </div>
-            <div class="col-md-5 d-flex mb-3">
+            <%--<div class="col-md-5 d-flex mb-3">
                 <div class="walletBlue rounded w-100 d-flex align-items-center justify-content-center p-3 ">
                     <div class="d-flex">
                         <div class="flex-shrink-0">
@@ -56,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>--%>
         </div>
         <h5 class="text-theme mb-3">Bank Statement</h5>
         <div class="col-md-5 mb-3">
