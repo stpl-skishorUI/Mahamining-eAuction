@@ -8,7 +8,7 @@
         <div class="row mb-4">
             <div class="col-md-7">
                 <div class="AccountDetailCard">
-                    <div class="card card-body border-blue mb-3">
+                    <div class="card card-body border-blue mb-3 pb-2">
                         <div class="row">
                             <div class="col-sm-5">
                                 <p class="text-gray">Beneficially Name :</p>
@@ -79,7 +79,7 @@
                 </div>
 
                 <div class="col-sm-auto">
-                    <button type="button" class="btn btn-sm btn-theme"><i class="fas fa-search me-1"></i>Search </button>
+                    <button type="button" class="btn btn-sm btn-theme px-4">Search </button>
                 </div>
             </div>
         </div>

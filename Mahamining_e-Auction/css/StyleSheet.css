@@ -1534,7 +1534,7 @@ table.event_table {
 .paymentHistoryCards .card-header {
     background: #004C73;
     color: #fff;
-    padding-block: 20px;
+    padding-block: 10px;
 }
 .paymentHistoryCards .card-header p{
     margin-bottom: 0px;
