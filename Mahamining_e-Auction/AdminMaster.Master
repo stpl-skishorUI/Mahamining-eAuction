@@ -142,7 +142,7 @@
                                                         <div class="lh-1 d-flex align-items-center">
                                                             <span class="lh-1 bal-amount">₹ 0/-
                                                             </span>
-                                                            <button type="button" class="btn btn-link p-0 link-account" href="#">Link Account</button>
+                                                            <a class="btn btn-link p-0 link-account shadow-none" href="VirtualAccountDetails.aspx">Link Account</a>
                                                         </div>
                                                     </div>
                                                 </div>
