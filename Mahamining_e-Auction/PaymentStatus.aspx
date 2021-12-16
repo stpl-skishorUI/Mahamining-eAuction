@@ -84,7 +84,7 @@
     <div class="paymentCards">
         <div class="row">
             <div class="col-md-4">
-                <a href="#" class="text-decoration-none">
+                <a href="PaymentHistory.aspx" class="text-decoration-none">
                     <div class="card p-3  mb-4">
                         <div class="card-header p-0 bg-transparent pb-1">
                             <div class="row">
@@ -199,7 +199,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="#" class="text-decoration-none">
+                <a href="PaymentHistory.aspx" class="text-decoration-none">
                     <div class="card p-3 mb-4">
                         <div class="card-header p-0 bg-transparent pb-1">
                             <div class="row">
@@ -314,7 +314,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="#" class="text-decoration-none">
+                <a href="PaymentHistory.aspx" class="text-decoration-none">
                     <div class="card p-3 mb-4">
                         <div class="card-header p-0 bg-transparent pb-1">
                             <div class="row">
@@ -429,7 +429,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="#" class="text-decoration-none ">
+                <a href="PaymentHistory.aspx" class="text-decoration-none ">
                     <div class="card p-3 mb-4">
                         <div class="card-header p-0 bg-transparent pb-1">
                             <div class="row">
@@ -544,7 +544,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="#" class="text-decoration-none">
+                <a href="PaymentHistory.aspx" class="text-decoration-none">
                     <div class="card p-3 mb-4">
                         <div class="card-header p-0 bg-transparent pb-1">
                             <div class="row">
@@ -659,7 +659,7 @@
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="#" class="text-decoration-none">
+                <a href="PaymentHistory.aspx" class="text-decoration-none">
                     <div class="card p-3 mb-4">
                         <div class="card-header p-0 bg-transparent pb-1">
                             <div class="row">

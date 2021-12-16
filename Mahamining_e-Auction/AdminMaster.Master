@@ -85,6 +85,12 @@
                                     </a>
                                 </li>
                                 <li class="active-new">
+                                    <a title="Main Dashboard" href="VirtualAccountDetails.aspx">
+                                        <i class="fas fa-file"></i>
+                                        <span class="menu-text">Virtual Account Details</span>
+                                    </a>
+                                </li>
+                                <li class="active-new">
                                     <a title="Main Dashboard" href="login.aspx">
                                         <i class="fas fa-star"></i>
                                         <span class="menu-text">Login</span>

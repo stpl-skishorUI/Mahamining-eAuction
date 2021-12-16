@@ -12,6 +12,7 @@
     --table-head-color: #e8f3ff;
     --table-border-color: #94c7ff;
     --blue-color: #2F9CFC;
+    --gray-color: #777474;
 }
 
 .text-theme {
@@ -26,9 +27,34 @@
 .text-green {
     color: #27c727;
 }
+.text-gray {
+    color: var(--gray-color);
+}
 .shadow-theme {
     box-shadow: 0px 3px 6px #24599126;
 }
+.fw-500{
+    font-weight:500;
+}
+.border-bottom-success {
+    border-bottom: 2px solid rgb(39, 199, 39) !important;
+}
+
+.border-bottom-orange {
+    border-bottom: 2px solid var(--orange-color) !important;
+}
+
+.border-bottom-blue {
+    border-bottom: 2px solid var(--blue-color) !important;
+}
+
+.border-blue {
+    border: 1px solid var(--blue-color);
+}
+
+
+
+
 .main-card .col-form-label,
 .main-card .form-check-label {
     font-size: .95rem;
@@ -1271,7 +1297,7 @@ table.event_table {
     border-color: #D1DFEF;
     font-weight: 600;
     font-size: .8rem;
-    padding: 10px 5px;
+    padding-block: 10px;
 }
 .event_table.et_2.table td, .event_table.et_2.table th {
     color: #111111;
@@ -1519,13 +1545,19 @@ table.event_table {
 .paymentHistoryCards p {
     margin-bottom: 4px;
 }
-.border-bottom-success {
-    border-bottom: 2px solid rgb(39, 199, 39)!important;
-}
-.border-bottom-orange {
-    border-bottom: 2px solid var(--orange-color) !important;
-}
-.border-bottom-blue {
-    border-bottom: 2px solid var(--blue-color) !important;
-}
+
 /*PaymentHistory.aspx css end here*/
+/*VirtualAccountDetails.aspx css start here*/
+.AccountDetailCard {
+    font-size: .85rem;
+}
+.AccountDetailCard p {
+    margin-bottom: 5px;
+}
+.walletBlue {
+    background: #4691E0;
+}
+.padY10 td {
+    padding-block: 10px!important;
+}
+/*VirtualAccountDetails.aspx css end here*/
