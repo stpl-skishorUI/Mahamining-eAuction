@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="VirtualAccountDetails.aspx.cs" Inherits="Mahamining_e_Auction.VirtualAccountDetails" %>
+﻿<%@ Page Title="VirtualAccountDetails" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="VirtualAccountDetails.aspx.cs" Inherits="Mahamining_e_Auction.VirtualAccountDetails" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/OuterMaster.Master" AutoEventWireup="true" CodeBehind="eAuctionPlotProfile.aspx.cs" Inherits="Mahamining_e_Auction.eAuctionPlotProfile" %>
+﻿<%@ Page Title="plotProfile" Language="C#" MasterPageFile="~/OuterMaster.Master" AutoEventWireup="true" CodeBehind="eAuctionPlotProfile.aspx.cs" Inherits="Mahamining_e_Auction.eAuctionPlotProfile" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
     <style>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/OuterMaster.Master" AutoEventWireup="true" CodeBehind="ApplyDigitalCertificate.aspx.cs" Inherits="Mahamining_e_Auction.ApplyDigitalCertificate" %>
+﻿<%@ Page Title="ApplyDigCertificate" Language="C#" MasterPageFile="~/OuterMaster.Master" AutoEventWireup="true" CodeBehind="ApplyDigitalCertificate.aspx.cs" Inherits="Mahamining_e_Auction.ApplyDigitalCertificate" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
