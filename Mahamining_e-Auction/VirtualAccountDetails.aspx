@@ -63,7 +63,7 @@
                 </div>
 
             </div>
-            <%--<div class="col-md-5 d-flex mb-3">
+            <%--<div class="col-md-4 d-flex mb-3">
                 <div class="walletBlue rounded w-100 d-flex align-items-center justify-content-center p-3 ">
                     <div class="d-flex">
                         <div class="flex-shrink-0">

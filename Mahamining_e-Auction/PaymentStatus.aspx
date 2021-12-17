@@ -95,7 +95,7 @@
                                         </div>
                                         <div class="flex-grow-1 ms-2">
                                             <p>Event ID</p>
-                                            <p class="text-primary fw-bold">ID-1232612</p>
+                                            <p class="text-blue fw-bold">ID-1232612</p>
                                         </div>
                                     </div>
                                 </div>
@@ -210,7 +210,7 @@
                                         </div>
                                         <div class="flex-grow-1 ms-2">
                                             <p>Event ID</p>
-                                            <p class="text-primary fw-bold">ID-1232612</p>
+                                            <p class="text-blue fw-bold">ID-1232612</p>
                                         </div>
                                     </div>
                                 </div>
@@ -325,7 +325,7 @@
                                         </div>
                                         <div class="flex-grow-1 ms-2">
                                             <p>Event ID</p>
-                                            <p class="text-primary fw-bold">ID-1232612</p>
+                                            <p class="text-blue fw-bold">ID-1232612</p>
                                         </div>
                                     </div>
                                 </div>
@@ -440,7 +440,7 @@
                                         </div>
                                         <div class="flex-grow-1 ms-2">
                                             <p>Event ID</p>
-                                            <p class="text-primary fw-bold">ID-1232612</p>
+                                            <p class="text-blue fw-bold">ID-1232612</p>
                                         </div>
                                     </div>
                                 </div>
@@ -555,7 +555,7 @@
                                         </div>
                                         <div class="flex-grow-1 ms-2">
                                             <p>Event ID</p>
-                                            <p class="text-primary fw-bold">ID-1232612</p>
+                                            <p class="text-blue fw-bold">ID-1232612</p>
                                         </div>
                                     </div>
                                 </div>
@@ -670,7 +670,7 @@
                                         </div>
                                         <div class="flex-grow-1 ms-2">
                                             <p>Event ID</p>
-                                            <p class="text-primary fw-bold">ID-1232612</p>
+                                            <p class="text-blue fw-bold">ID-1232612</p>
                                         </div>
                                     </div>
                                 </div>

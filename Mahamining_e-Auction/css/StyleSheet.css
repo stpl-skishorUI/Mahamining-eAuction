@@ -22,7 +22,7 @@
     color: var(--orange-color);
 }
 .text-blue {
-    color: var(--blue-color);
+    color: var(--blue-color)!important;
 }
 .text-green {
     color: #27c727;
