@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="SellerEditProfile.aspx.cs" Inherits="Mahamining_e_Auction.SellerEditProfile" %>
+﻿<%@ Page Title="Edit Profile" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="SellerEditProfile.aspx.cs" Inherits="Mahamining_e_Auction.SellerEditProfile" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-body">
+            <div class="card-body pb-0">
                 <div class="row">
                     <div class="col-md">
                         <div class="form-group row g-2">
@@ -165,7 +165,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 text-end pb-3 pt-0">
+                    <div class="col-md-12 text-end pt-0">
                         <button type="button" data-button="cancel" id="btnClear" class="btn mx-2 dept_submit pt-2"><i class="fa fa-times"></i>Clear</button>
                         <button type="button" id="btnSave" class="btn dept_submit pt-2" data-bs-toggle="modal" data-bs-target="#submitModal"><i class="fa fa-sign-out-alt"></i><span class="font-weight-normal">Submit</span></button>
                     </div>

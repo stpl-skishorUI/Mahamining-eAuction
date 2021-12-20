@@ -76,6 +76,7 @@
     <Content Include="eAuction.aspx" />
     <Content Include="eAuctionParticipate.aspx" />
     <Content Include="eAuctionPlotProfile.aspx" />
+    <Content Include="EventCreation.aspx" />
     <Content Include="EventDetails.aspx" />
     <Content Include="GeneratedDemandNote.aspx" />
     <Content Include="images\AutoBid.svg" />
@@ -156,6 +157,13 @@
     </Compile>
     <Compile Include="eAuctionPlotProfile.aspx.designer.cs">
       <DependentUpon>eAuctionPlotProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventCreation.aspx.cs">
+      <DependentUpon>EventCreation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventCreation.aspx.designer.cs">
+      <DependentUpon>EventCreation.aspx</DependentUpon>
     </Compile>
     <Compile Include="EventDetails.aspx.cs">
       <DependentUpon>EventDetails.aspx</DependentUpon>

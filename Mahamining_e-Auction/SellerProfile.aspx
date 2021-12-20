@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="SellerProfile.aspx.cs" Inherits="Mahamining_e_Auction.SellerProfile" %>
+﻿<%@ Page Title="Profile" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="SellerProfile.aspx.cs" Inherits="Mahamining_e_Auction.SellerProfile" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -21,7 +21,7 @@
                         <p class="text-blue mb-0 fst-italic">Details furnished by you during member registration process is as below.</p>
                     </div>
                     <div class="col-auto">
-                        <span><a href="#" class="mx-1 text-decoration-none small text-blue"><i class="fa fa-edit me-1"></i></a></span>
+                        <span><a href="SellerEditProfile.aspx" class="mx-1 text-decoration-none small text-blue"><i class="fa fa-edit me-1 fa-2x fw-normal"></i></a></span>
                     </div>
                 </div>
                 <div class="row mb-2">
