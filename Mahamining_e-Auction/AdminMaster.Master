@@ -33,6 +33,19 @@
                     <div class="sidebar-item sidebar-menu">
                         <div id="_Menu">
                             <ul>
+                                <li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
+                                        <i class="fas fa-database"></i>
+                                        <span class="menu-text">Seller Section</span>
+                                    </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="eAuctionParticipate.aspx">Profile</a></li>
+                                            <li><a href="eAuctionPlotProfile.aspx">Change Password</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
                                 <li class="active-new">
                                     <a title="Main Dashboard" href="eAuction.aspx">
                                         <i class="fas fa-star"></i>

@@ -101,6 +101,7 @@
     <Content Include="MakePayment.aspx" />
     <Content Include="PaymentHistory.aspx" />
     <Content Include="PaymentStatus.aspx" />
+    <Content Include="SellerProfile.aspx" />
     <Content Include="VirtualAccountDetails.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -204,6 +205,13 @@
       <DependentUpon>PaymentStatus.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SellerProfile.aspx.cs">
+      <DependentUpon>SellerProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SellerProfile.aspx.designer.cs">
+      <DependentUpon>SellerProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VirtualAccountDetails.aspx.cs">
       <DependentUpon>VirtualAccountDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
