@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="ApplyDigitalCertificate.aspx" />
     <Content Include="BidderRegistration.aspx" />
+    <Content Include="ChangePassword.aspx" />
     <Content Include="css\GeneratedDemandNote.css" />
     <Content Include="css\Sidebar.css" />
     <Content Include="css\StyleSheet.css" />
@@ -127,6 +128,13 @@
     </Compile>
     <Compile Include="BidderRegistration.aspx.designer.cs">
       <DependentUpon>BidderRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
     </Compile>
     <Compile Include="eAuction.aspx.cs">
       <DependentUpon>eAuction.aspx</DependentUpon>
