@@ -10,7 +10,7 @@
         </div>
         <div class="login h-auto shadow">
             <div class="login-close" style="right: 10px; top: 10px;">
-                <a href="home.html"><i class="far fa-times-circle"></i></a>
+                <a href="#"><i class="far fa-times-circle"></i></a>
             </div>
             <h6 class="text-capitalize fw-500">Change Password</h6>
             <div class="form-group mb-4">
