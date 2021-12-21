@@ -44,6 +44,8 @@
                                             <li><a href="SellerEditProfile.aspx">Edit Profile</a></li>
                                             <li><a href="ChangePassword.aspx">Change Password</a></li>
                                             <li><a href="EventCreation.aspx">Event Creation</a></li>
+                                            <li><a href="SellerAgreement.aspx">Seller Agreement</a></li>
+                                            <li><a href="SellerAgreementDocumentList.aspx">Seller Doc. List</a></li>
                                             
                                         </ul>
                                     </div>
