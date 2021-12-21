@@ -33,9 +33,18 @@
 .shadow-theme {
     box-shadow: 0px 3px 6px #24599126;
 }
-.fw-500{
-    font-weight:500;
+.fw-500 {
+    font-weight: 500 !important;
 }
+.btn-blue.btn-outline-primary {
+    color: var(--blue-color) !important;
+    border-color: var(--blue-color) !important;
+}
+    .btn-blue.btn-outline-primary:hover {
+        color: #fff !important;
+        background-color: var(--blue-color) !important;
+        border-color: var(--blue-color) !important;
+    }
 .border-bottom-success {
     border-bottom: 2px solid rgb(39, 199, 39) !important;
 }
@@ -49,7 +58,7 @@
 }
 
 .border-blue {
-    border: 1px solid var(--blue-color);
+    border: 1px solid var(--blue-color) !important;
 }
 
 
@@ -484,9 +493,15 @@ table.fold-table {
     color: #ffffff;
     font-weight: 400;
 }
+.eAuction-table table > .thead-primary th {
+    background-color: #BFDDFF !important;
+    border-top: 0;
+    color: #234160;
+    font-weight: 700;
+}
 
 .eAuction-table-height {
-    max-height: 38em;
+    max-height: 31em;
     overflow: auto;
     width: 100%;
     display: block;
@@ -606,6 +621,20 @@ button.dept_submit {
     padding: 3px 3px;
     border-radius: 50%;
     transform: rotateZ(270deg);
+    font-size: 10px;
+    margin: 0px 6px 0 0;
+    position: relative;
+    top: -1px;
+    width: 18px;
+    height: 18px;
+    line-height: 13px;
+}
+.dept_submit .fa-eye {
+    background: #5293F5;
+    color: #fff;
+    padding: 3px 3px;
+    border-radius: 50%;
+    /* transform: rotateZ(270deg);*/
     font-size: 10px;
     margin: 0px 6px 0 0;
     position: relative;
@@ -914,7 +943,7 @@ button.dept_submit {
 
     .table td,
     .table th {
-        padding: 4px 10px;
+        /*padding: 4px 10px;*/
         vertical-align: middle;
     }
 
@@ -1030,7 +1059,7 @@ button.dept_submit {
 
 .modal-content {
     box-shadow: 0px 0px 20px #0000001A;
-    border-radius: 10px !important;
+    border-radius: 8px !important;
 }
 
 .gp_modal_o {
@@ -1407,9 +1436,11 @@ table.event_table {
     background: #ffffff;
     padding: 8px;
 }
-.table-striped > tbody > tr:nth-of-type(odd) > * {
+.table-striped > tbody > tr:nth-of-type(even) > * {
     --bs-table-accent-bg: #DFEFFF;
-    
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-accent-bg: #ffffff;
 }
 .liveBidding .eAuction-table table > .thead-light th {
     padding: 8px;

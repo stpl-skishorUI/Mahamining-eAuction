@@ -103,6 +103,7 @@
     <Content Include="MakePayment.aspx" />
     <Content Include="PaymentHistory.aspx" />
     <Content Include="PaymentStatus.aspx" />
+    <Content Include="SellerAgreement.aspx" />
     <Content Include="SellerEditProfile.aspx" />
     <Content Include="SellerProfile.aspx" />
     <Content Include="VirtualAccountDetails.aspx" />
@@ -222,6 +223,13 @@
       <DependentUpon>PaymentStatus.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SellerAgreement.aspx.cs">
+      <DependentUpon>SellerAgreement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SellerAgreement.aspx.designer.cs">
+      <DependentUpon>SellerAgreement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SellerEditProfile.aspx.cs">
       <DependentUpon>SellerEditProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
