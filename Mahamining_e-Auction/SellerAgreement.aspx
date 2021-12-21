@@ -94,9 +94,14 @@
                     </div>
                     <div class="col-md offset-md-1">
                         <div class="form-group row g-2">
-                            <p for="" class="col-sm-5 col-form-label">Reserve Price :</p>
-                            <div class="col-sm-7">
+                            <p for="" class="col-5 col-form-label">Reserve Price :</p>
+                            <div class="col">
                                 <input type="text" class="form-control shadow-none border" id="" placeholder="Reserve Price">
+                            </div>
+                            <div class="col-auto ps-0">
+                                <select class="form-control shadow-none form-select form-select-xs border ps-2" id="">
+                                    <option>Rs</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -112,9 +117,14 @@
                     </div>
                     <div class="col-md offset-md-1">
                         <div class="form-group row g-2">
-                            <p for="" class="col-sm-5 col-form-label">Minimum Bid Increment :</p>
-                            <div class="col-sm-7">
+                            <p for="" class="col-5 col-form-label">Minimum Bid Increment :</p>
+                            <div class="col">
                                 <input type="text" class="form-control shadow-none border" id="" placeholder="Minimum Bid Increment">
+                            </div>
+                            <div class="col-auto ps-0">
+                                <select class="form-control shadow-none form-select form-select-xs border ps-2" id="">
+                                    <option>Rs</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -130,9 +140,14 @@
                     </div>
                     <div class="col-md offset-md-1">
                         <div class="form-group row g-2">
-                            <p for="" class="col-sm-5 col-form-label">Opening Price :</p>
-                            <div class="col-sm-7">
+                            <p for="" class="col-5 col-form-label">Opening Price :</p>
+                            <div class="col">
                                 <input type="text" class="form-control shadow-none border" id="" placeholder="Opening Price">
+                            </div>
+                            <div class="col-auto ps-0">
+                                <select class="form-control shadow-none form-select form-select-xs border ps-2" id="">
+                                    <option>Rs</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -326,8 +341,12 @@
                                 </tbody>
                             </table>
                         </div>
+                        <div class="text-end">
+                            <button type="button" class="btn btn-sm px-3 btn-theme" data-bs-toggle="modal" data-bs-target="#SelectPlot"><span class="">Proceed to Document List</span> </button>
+                        </div>
                     </div>
                 </div>
+                
 
                 <div class="row mt-4">
                     <div class="col-md-12 text-end pt-0">
@@ -462,8 +481,8 @@
 
                                 </table>
                             </div>
+                            
                         </div>
-
                     </div>
                 </div>
 

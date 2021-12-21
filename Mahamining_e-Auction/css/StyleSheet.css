@@ -60,7 +60,10 @@
 .border-blue {
     border: 1px solid var(--blue-color) !important;
 }
-
+.form-select-xs {
+    padding: 0.375rem 1.25rem 0.375rem 0.75rem;
+    background-position: right 0.25rem center;
+}
 
 
 
