@@ -30,6 +30,9 @@
 .text-gray {
     color: var(--gray-color);
 }
+.w-100px{
+    width:100px !important;
+}
 .shadow-theme {
     box-shadow: 0px 3px 6px #24599126;
 }
