@@ -1338,8 +1338,10 @@ table.event_table {
 }
 .event_table.table .thead-dark th {
     color: #111111;
-    background-color: #D1DFEF;
-    border-color: #D1DFEF;
+    /*background-color: #D1DFEF;
+    border-color: #D1DFEF;*/
+    background-color: #E1EFFF;
+    border-color: #E1EFFF;
     font-weight: 600;
     font-size: .8rem;
     padding-block: 10px;
