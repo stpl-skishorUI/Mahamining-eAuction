@@ -11,7 +11,7 @@
                         <h6 class="text-theme mb-0 fw-bold">Profile</h6>
                     </div>
                     <div class="col-auto">
-                        <span><a href="#" class="mx-1 text-decoration-none small text-dark"><i class="fa fa-angle-double-left me-1"></i>Back </a></span>
+                        <span><a href="#" class="mx-1 text-decoration-none small text-gray"><i class="fa fa-angle-double-left me-1"></i>Back </a></span>
                     </div>
                 </div>
             </div>

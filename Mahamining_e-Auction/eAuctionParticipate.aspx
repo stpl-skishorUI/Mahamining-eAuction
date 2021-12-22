@@ -7,8 +7,8 @@
             <div class="content-head">Event Details </div>
         </div>
         <div class="col-sm-6 text-end">
-            <span><a href="#" class="mx-2 text-decoration-none small text-dark"><i class="fa fa-home me-1"></i>Home </a></span>
-            <span><a href="#" class="mx-2 text-decoration-none small text-dark"><i class="fa fa-angle-double-left me-1"></i>Back </a></span>
+            <span><a href="#" class="mx-2 text-decoration-none small text-gray"><i class="fa fa-home me-1"></i>Home </a></span>
+            <span><a href="#" class="mx-2 text-decoration-none small text-gray"><i class="fa fa-angle-double-left me-1"></i>Back </a></span>
         </div>
     </div>
 
