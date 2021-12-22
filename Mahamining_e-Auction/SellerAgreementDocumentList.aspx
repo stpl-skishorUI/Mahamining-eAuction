@@ -77,8 +77,7 @@
                                         <td scope="row" class="text-center">7</td>
                                         <td>TDS Certificate</td>
                                         <td class="text-center justify-content-center align-items-center">
-                                            <span>
-                                                <input type="checkbox" class="mx-1" id=""></span>
+                                            <span><input type="checkbox" class="mx-1" id=""></span>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -88,7 +87,7 @@
                             <p class="mb-0 text-gray fw-500">Attach Event Document :
                                 <button type="button" class="btn btn-sm px-2 py-0 btn-theme ms-1"><span class="small">Choose File</span> </button>
                             </p>
-                            <button type="button" class="btn btn-sm px-3 btn-theme"><span class="">Submit List</span> </button>
+                            <button type="button" class="btn btn-sm px-3 btn-theme" data-bs-toggle="modal" data-bs-target="#submitDocList"><span class="">Submit List</span> </button>
                         </div>
                         <div class="row mt-4">
                             <div class="col-md-12 text-end pt-0">
@@ -100,7 +99,24 @@
                 </div>
             </div>
         </div>
-
+    </div>
+    <div class="modal fade submit-modal" id="submitDocList" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <%--<span aria-hidden="true" class="text-secondary">×</span>--%>
+                    </button>
+                    <div class="model-check">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <h3 id="">Event Document and list of Require Doc Upload Successfully !</h3>
+                    <div class="text-center">
+                        <button type="button" id="quarryOk" class="btn btn-green shadow-none mb-0 px-5 text-uppercase" data-dismiss="modal">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">

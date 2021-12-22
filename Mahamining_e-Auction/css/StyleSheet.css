@@ -39,6 +39,16 @@
 .fw-500 {
     font-weight: 500 !important;
 }
+.btn-green {
+    color: #fff;
+    background-color: #24BE9E;
+    border-color: #24BE9E;
+}
+.btn-green:hover {
+    color: #fff !important;
+    background-color: #0d977a !important;
+    border-color: #0d977a !important;
+}
 .btn-blue.btn-outline-primary {
     color: var(--blue-color) !important;
     border-color: var(--blue-color) !important;
