@@ -74,6 +74,7 @@
     <Content Include="css\GeneratedDemandNote.css" />
     <Content Include="css\Sidebar.css" />
     <Content Include="css\StyleSheet.css" />
+    <Content Include="DocumentVerificationList.aspx" />
     <Content Include="eAuction.aspx" />
     <Content Include="eAuctionParticipate.aspx" />
     <Content Include="eAuctionPlotProfile.aspx" />
@@ -147,6 +148,13 @@
     </Compile>
     <Compile Include="ChangePassword.aspx.designer.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentVerificationList.aspx.cs">
+      <DependentUpon>DocumentVerificationList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DocumentVerificationList.aspx.designer.cs">
+      <DependentUpon>DocumentVerificationList.aspx</DependentUpon>
     </Compile>
     <Compile Include="eAuction.aspx.cs">
       <DependentUpon>eAuction.aspx</DependentUpon>
