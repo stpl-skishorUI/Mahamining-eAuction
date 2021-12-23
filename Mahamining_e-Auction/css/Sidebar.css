@@ -356,7 +356,7 @@
         width: 100%;
         -webkit-transition: padding-left .3s ease;
         transition: padding-left .3s ease;
-        overflow-x: hidden;
+       /* overflow-x: hidden;*/
     }
 
         .page-wrapper .page-content .overlay {
@@ -564,6 +564,19 @@
     z-index: 1;
     width: 95%;
 }
+#topbtngroup {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 73px;
+    font-size: 0.85em;
+    line-height: 32px;
+    font-weight: 600;
+    padding: 7px 25px;
+    background-color: #fff;
+    border-block: solid 1px #f1f1f1;
+    z-index: 1;
+}
+
 
 .dash_outer {
     margin-top: 110px;

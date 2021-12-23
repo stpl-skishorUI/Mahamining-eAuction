@@ -8,7 +8,7 @@
             <div class="card-header bg-transparent">
                 <div class="row">
                     <div class="col">
-                        <h6 class="text-theme mb-0 fw-bold">Seller Agreement</h6>
+                        <h6 class="text-theme mb-0 fw-bold">Document Checklist</h6>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                     <div class="model-check">
                         <i class="fa fa-check"></i>
                     </div>
-                    <h3 id="">Event Document and list of Require Doc Upload Successfully !</h3>
+                    <h3 id="">Event Document and List of Required Document Upload Successfully !</h3>
                     <div class="text-center">
                         <button type="button" id="quarryOk" class="btn btn-green shadow-none mb-0 px-5 text-uppercase" data-dismiss="modal">Ok</button>
                     </div>

@@ -6,7 +6,7 @@
     <div class="card-header bg-transparent border-bottom-0 pb-0">
         <div class="row">
             <div class="col-6">
-                <h6 class="text-theme mb-0 fw-bold">Event List  </h6>
+                <h6 class="text-theme mb-0 fw-bold">Event List </h6>
             </div>
             <div class="col-6 text-end">
                 <span><a href="#" class="mx-2 text-decoration-none small text-gray"><i class="fa fa-angle-double-left me-1"></i>Back </a></span>
