@@ -52,6 +52,18 @@
                                         </ul>
                                     </div>
                                 </li>
+                                <li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
+                                        <i class="fas fa-database"></i>
+                                        <span class="menu-text">Approver Section</span>
+                                    </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="SellerProfile.aspx">Profile</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
                                 <li class="active-new">
                                     <a title="Main Dashboard" href="eAuction.aspx">
                                         <i class="fas fa-star"></i>
