@@ -22,9 +22,25 @@
                             <input type="text" class="form-control border rounded shadow-none" placeholder="Search By Keyword" />
                         </div>
                         <div class="col-sm">
-                            <div class="input-group">
+                            <%--<div class="input-group">
                                 <input type="text" class="form-control border border-end-0 rounded-start shadow-none" placeholder="Search By Date" aria-label="" aria-describedby="addon2">
                                 <span class="input-group-text bg-white border-start-0 form-control1 border rounded-end shadow-none" id="addon2"><i class="far fa-calendar text-gray"></i></span>
+                            </div>--%>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-white border-end-0 border border-end-0 rounded-start shadow-none fs-7 fw-500 text-theme">Form Date</span>
+                                </div>
+                                <input type="text" placeholder="DD/MM/YYYY" class="form-control border border-start-0 border-end-0 shadow-none " data-entry="" autocomplete="off" id="">
+                                <span class="input-group-text bg-white border-start-0 form-control1 border rounded-end shadow-none" id=""><i class="far fa-calendar text-gray"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-white border-end-0 border border-end-0 rounded-start shadow-none fs-7 fw-500 text-theme">To Date</span>
+                                </div>
+                                <input type="text" placeholder="DD/MM/YYYY" class="form-control border border-start-0 border-end-0 shadow-none " data-entry="" autocomplete="off" id="">
+                                <span class="input-group-text bg-white border-start-0 form-control1 border rounded-end shadow-none" id=""><i class="far fa-calendar text-gray"></i></span>
                             </div>
                         </div>
 

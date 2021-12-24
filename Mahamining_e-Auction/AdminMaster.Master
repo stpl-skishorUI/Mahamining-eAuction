@@ -115,13 +115,13 @@
                                         <span class="menu-text">Login</span>
                                     </a>
                                 </li>
-                                
+
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
-            
+
             <main class="page-content">
                 <div class="container-fluid" id="topbar">
                     <div class="row shadow-sm">
@@ -174,13 +174,64 @@
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="row main-content">
-                    <div class="col-md-12 text-end"  id="topbtngroup">
-                        <button type="button" data-button="cancel" id="btnClear" class="btn mx-2 dept_submit pt-2"><i class="fa fa-times"></i>Clear</button>
-                        <button type="button" id="btnSave" class="btn dept_submit pt-2" data-bs-toggle="modal" data-bs-target="#submitModal"><i class="fa fa-sign-out-alt"></i><span class="font-weight-normal">Submit</span></button>
+
+
+
+                    <div class="col-md-12 text-end" id="topbtngroup">
+                        <ul class="float-end m-0 d-flex list-inline">
+                            <li>
+                                <a id="toggle-sidebar" class="waves-effect waves-light btn btn-sm btn-light nav-btn me-2 " href="#">
+                                    <i class="fas fa-align-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <a class="btn btn-light btn-sm nav-btn nav-link1 dropdown-toggle shadow-none" href="#" role="button" id="userNmae" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Seller</a>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userNmae">
+                                        <%--<h6 class="dropdown-header"><span class="font-weight-bold" id="userDetails">
+                                                    <div>
+                                                        <label>District Level</label>
+                                                        - <strong>Mahamining Office Executive</strong></div>
+                                                </span></h6>--%>
+                                        <a class="dropdown-item _logOut" href="#"><i class="fas fa-sign-out-alt mr-1"></i>Logout</a>
+                                    </div>
+
+                                    <%--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <img src="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-08-512.png" class="avatar" />
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                                            </ul>--%>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-md-12 pt-2 px-4" id="topnav">
+                        <div class="row">
+                            <div class="col-auto">
+                                <div class="row" id="top-breadcrumb">
+                                    <div class="col-sm-auto ps-3">
+                                        <span id="SiteMap1">
+                                            <span><a href="#">Dashboard</a></span> <span>&gt;</span>
+                                            <span>Profile</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col text-end">
+                                <button type="button" data-button="cancel" id="btnClear" class="btn mx-1 dept_submit pt-2"><i class="fa fa-times"></i>Clear</button>
+                                <button type="button" data-button="" id="" class="btn mx-0 dept_submit pt-2"><i class="fa fa-eye"></i>Preview</button>
+                                <button type="button" id="btnSave" class="btn dept_submit pt-2 mx-1" data-bs-toggle="modal" data-bs-target="#submitModal"><i class="fa fa-sign-out-alt"></i><span class="font-weight-normal">Submit</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 pe-1">
                         <div class="content">
                             <asp:ContentPlaceHolder ID="content" runat="server"></asp:ContentPlaceHolder>
                         </div>

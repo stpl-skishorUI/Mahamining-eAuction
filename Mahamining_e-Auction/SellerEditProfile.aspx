@@ -164,12 +164,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <%--<div class="row">
                     <div class="col-md-12 text-end pt-0">
                         <button type="button" data-button="cancel" id="btnClear" class="btn mx-2 dept_submit pt-2"><i class="fa fa-times"></i>Clear</button>
                         <button type="button" id="btnSave" class="btn dept_submit pt-2" data-bs-toggle="modal" data-bs-target="#submitModal"><i class="fa fa-sign-out-alt"></i><span class="font-weight-normal">Submit</span></button>
                     </div>
-                </div>
+                </div>--%>
             </div>
         </div>
     </div>
