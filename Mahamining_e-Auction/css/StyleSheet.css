@@ -1563,6 +1563,9 @@ table.event_table {
 .paymentCards .card img {
     width: 14px;
 }
+.paymentCards .form-control {
+    font-size: .82rem;
+}
 .btn-outline-warning.btn-orange-o {
     position: relative;
     border-color: #FC893C;
