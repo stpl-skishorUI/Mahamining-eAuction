@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
-    <div class="login-box" style="top: 50%; left:50%">
+    <div class="login-box" style="top: 60%; left:50%">
         <div class="loginLoading d-none">
             <div class="d-flex justify-content-center align-items-center" style="height:300px;">
                 <img src="images/Hourglass.gif" />
