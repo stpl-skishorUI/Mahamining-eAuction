@@ -59,8 +59,7 @@
                                     </a>
                                     <div class="sidebar-submenu">
                                         <ul>
-                                            <li><a href="SellerProfile.aspx">Profile</a></li>
-                                            
+                                            <li><a href="OnlineAuctionDetails.aspx">Online Auction Details</a></li>
                                         </ul>
                                     </div>
                                 </li>
