@@ -33,6 +33,12 @@
 .w-100px{
     width:100px !important;
 }
+.mw-100px{
+    max-width:100px !important;
+}
+.w-200px{
+    width:200px !important;
+}
 .shadow-theme {
     box-shadow: 0px 3px 6px #24599126;
 }

@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddApprovalLevel.aspx" />
+    <Content Include="Agreement.aspx" />
     <Content Include="ApplyDigitalCertificate.aspx" />
     <Content Include="AuctionItemDetails.aspx" />
     <Content Include="AuctionReport.aspx" />
@@ -132,6 +133,13 @@
     </Compile>
     <Compile Include="AdminMaster.Master.designer.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Agreement.aspx.cs">
+      <DependentUpon>Agreement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agreement.aspx.designer.cs">
+      <DependentUpon>Agreement.aspx</DependentUpon>
     </Compile>
     <Compile Include="ApplyDigitalCertificate.aspx.cs">
       <DependentUpon>ApplyDigitalCertificate.aspx</DependentUpon>
