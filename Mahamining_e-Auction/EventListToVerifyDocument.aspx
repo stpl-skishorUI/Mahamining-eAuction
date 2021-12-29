@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="EventListToVerifyDocument.aspx.cs" Inherits="Mahamining_e_Auction.EventListToVerifyDocument" %>
+﻿<%@ Page Title="Verify Document" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="EventListToVerifyDocument.aspx.cs" Inherits="Mahamining_e_Auction.EventListToVerifyDocument" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">

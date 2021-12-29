@@ -60,6 +60,10 @@
                                     <div class="sidebar-submenu">
                                         <ul>
                                             <li><a href="OnlineAuctionDetails.aspx">Online Auction Details</a></li>
+                                            <li><a href="EventListToVerifyDocument.aspx">Event List To Verify Document</a></li>
+                                            <li><a href="AuctionItemDetails.aspx">Auction Item Details</a></li>
+                                            <li><a href="UploadFilesPhotos.aspx">Upload Files Photos</a></li>
+                                            
                                         </ul>
                                     </div>
                                 </li>
