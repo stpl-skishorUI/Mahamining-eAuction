@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddApprovalLevel.aspx" />
     <Content Include="ApplyDigitalCertificate.aspx" />
     <Content Include="AuctionItemDetails.aspx" />
     <Content Include="AuctionReport.aspx" />
@@ -118,6 +119,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddApprovalLevel.aspx.cs">
+      <DependentUpon>AddApprovalLevel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddApprovalLevel.aspx.designer.cs">
+      <DependentUpon>AddApprovalLevel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminMaster.Master.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
