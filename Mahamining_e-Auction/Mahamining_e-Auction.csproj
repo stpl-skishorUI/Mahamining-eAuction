@@ -86,6 +86,7 @@
     <Content Include="EventList.aspx" />
     <Content Include="EventListToVerifyDocument.aspx" />
     <Content Include="GeneratedDemandNote.aspx" />
+    <Content Include="HideBidderSeller.aspx" />
     <Content Include="images\AutoBid.svg" />
     <Content Include="images\bg1.jpg" />
     <Content Include="images\bg26.jpg" />
@@ -238,6 +239,13 @@
     </Compile>
     <Compile Include="GeneratedDemandNote.aspx.designer.cs">
       <DependentUpon>GeneratedDemandNote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HideBidderSeller.aspx.cs">
+      <DependentUpon>HideBidderSeller.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HideBidderSeller.aspx.designer.cs">
+      <DependentUpon>HideBidderSeller.aspx</DependentUpon>
     </Compile>
     <Compile Include="LiveBidding.aspx.cs">
       <DependentUpon>LiveBidding.aspx</DependentUpon>
