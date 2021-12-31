@@ -19,10 +19,10 @@
                     <div class="col-md-2 mb-2">
                         <p class="">Event Id :</p>
                     </div>
-                    <div class="col-md-4 mb-2">
-                        <input type="text" class="form-control shadow-none ps-0 fw-bold" id="" placeholder="Event Id">
+                    <div class="col-md-3 mb-2">
+                        <input type="text" class="form-control form-control-sm shadow-none  pt-0 ps-0 fw-bold" id="" placeholder="Event Id">
                     </div>
-                    <div class="col-md-2 mb-2">
+                    <div class="col-md-2 offset-md-1 mb-2">
                         <p class="">Auction Type :</p>
                     </div>
                     <div class="col-md-3 mb-2">
