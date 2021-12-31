@@ -117,6 +117,7 @@
     <Content Include="SellerAgreementDocumentList.aspx" />
     <Content Include="SellerEditProfile.aspx" />
     <Content Include="SellerProfile.aspx" />
+    <Content Include="SellerRegistration.aspx" />
     <Content Include="UploadFilesPhotos.aspx" />
     <Content Include="VirtualAccountDetails.aspx" />
     <Content Include="Web.config" />
@@ -332,6 +333,13 @@
     </Compile>
     <Compile Include="SellerProfile.aspx.designer.cs">
       <DependentUpon>SellerProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SellerRegistration.aspx.cs">
+      <DependentUpon>SellerRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SellerRegistration.aspx.designer.cs">
+      <DependentUpon>SellerRegistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="UploadFilesPhotos.aspx.cs">
       <DependentUpon>UploadFilesPhotos.aspx</DependentUpon>

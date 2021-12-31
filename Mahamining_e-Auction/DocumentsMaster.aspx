@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="DocumentsMaster.aspx.cs" Inherits="Mahamining_e_Auction.DocumentsMaster" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
@@ -33,62 +34,61 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="eAuction-table-border rounded  mb-3 eAuction-table-height">
-                <table class="table table-bordered rounded event_table et_2 mb-0">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col" style="width: 80px;" class="text-center">Doc Id</th>
-                            <th scope="col">Document Name</th>
-                            <th scope="col" class="text-center">Edit</th>
-                            <th scope="col" class="text-center">Delete</th>
-                        </tr>
-                    </thead>
-                    <tbody class="padY10">
-                        <tr>
-                            <td class="text-center" scope="row">1</td>
-                            <td>PAN Card</td>
-                            <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
-                            <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center" scope="row">2</td>
-                            <td>Aadhar Card</td>
-                             <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
-                            <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center" scope="row">3</td>
-                            <td>Last Three Year Turn Over</td>
-                             <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
-                            <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center" scope="row">4</td>
-                            <td>GST Certificate</td>
-                             <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
-                            <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center" scope="row">5</td>
-                            <td>Reg Receipt</td>
-                             <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
-                            <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
-                        </tr>
-                        <tr>
-                            <td class="text-center" scope="row">6</td>
-                            <td>TDS Certificate</td>
-                             <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
-                            <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
-                        </tr>
-                        
-                    </tbody>
-                </table>
-            </div>
+                            <table class="table table-bordered rounded event_table et_2 mb-0">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col" style="width: 80px;" class="text-center">Doc Id</th>
+                                        <th scope="col">Document Name</th>
+                                        <th scope="col" class="text-center">Edit</th>
+                                        <th scope="col" class="text-center">Delete</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="padY10">
+                                    <tr>
+                                        <td class="text-center" scope="row">1</td>
+                                        <td>PAN Card</td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row">2</td>
+                                        <td>Aadhar Card</td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row">3</td>
+                                        <td>Last Three Year Turn Over</td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row">4</td>
+                                        <td>GST Certificate</td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row">5</td>
+                                        <td>Reg Receipt</td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row">6</td>
+                                        <td>TDS Certificate</td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Edit</a></td>
+                                        <td class="text-center"><a href="#" class="text-blue text-decoration-none">Delete</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
-        
+
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
