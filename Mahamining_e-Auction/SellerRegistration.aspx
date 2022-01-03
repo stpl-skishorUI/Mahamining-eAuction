@@ -3,8 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
     <div class="paymentCards">
-        <div class="card border-0 shadow-none">
-            <div class="card-header bg-transparent">
+        <div class="card border-0 shadow-none mb-3">
+            <div class="card-header bg-transparent border-bottom-0">
                 <div class="row">
                     <div class="col">
                         <h6 class="text-theme mb-0 fw-bold">Seller Registration</h6>
@@ -44,7 +44,7 @@
                         <p class="">PAN No. :</p>
                     </div>
                     <div class="col-md-3 mb-2">
-                        <input type="text" class="form-control form-control-sm shadow-none pt-0 ps-0 fw-bold" id="" placeholder="Demoauction">
+                        <input type="text" class="form-control form-control-sm shadow-none pt-0 ps-0 fw-bold" id="" placeholder="">
                     </div>
                 </div>
                 <div class="row">
@@ -60,7 +60,7 @@
                         <p class="">Office Address :</p>
                     </div>
                     <div class="col-md-3 mb-2">
-                         <textarea class="form-control shadow-none border rounded" id="" rows="7" placeholder="SYNISE TECHNOLOGIES LTD. 4th Floor, VISHWA ARCADE, Near Navale bridge,Mumbai Bangalore Highway"></textarea>
+                         <textarea class="form-control shadow-none ps-0 fw-bold" id="" rows="3" placeholder="SYNISE TECHNOLOGIES LTD. 4th Floor, VISHWA ARCADE, Near Navale bridge,Mumbai Bangalore Highway"></textarea>
                     </div>
                     <div class="col-md-2 offset-md-1 mb-2">
                         <p class="">GST No. :</p>
@@ -153,7 +153,7 @@
                             </div>
                             <div class="col-md-6 mb-2">
                                 <select class="form-control shadow-none form-select form-select-xs pt-0 ps-0 fw-bold" id="">
-                                    <option>Mahrashtra</option>
+                                    <option>Maharashtra</option>
                                 </select>
                             </div>
                         </div>
@@ -163,8 +163,13 @@
                             <div class="col-md-4 mb-2">
                                 <p class="">Enter Below Code :</p>
                             </div>
-                            <div class="col-md mb-2">
+                            <div class="col-md-6 mb-2">
                                 <input type="text" class="form-control form-control-sm shadow-none pt-0 ps-0 fw-bold" id="" placeholder="Code">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 offset-md-4 mb-2">
+                                <input type="text" class="form-control form-control-sm shadow-none fw-bold" id="" placeholder="c85b0" readonly>
                             </div>
                             <div class="col-md-auto mb-2 ps-0">
                                 <button type="button" class="btn btn-sm px-2 lh-sm btn-theme me-2" value=""><small> <i class="fas fa-sync-alt"></i> Refresh </small></button>
@@ -172,155 +177,94 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-                
-               
-               
                 <div class="row">
-                    <div class="col-md-2 mb-2 align-self-center">
+                    <div class="col-md-2 mb-2">
                         <p class="">Auction Date :</p>
                     </div>
                     <div class="col-md-3 mb-2">
-                        <input type="date" class="form-control shadow-none ps-0 fw-bold" id="" placeholder="29/11/2021">
-                    </div>
-                    <div class="col-md-2 offset-md-1 mb-2 align-self-center">
-                        <p class="">Auction Start Time :</p>
-                    </div>
-                    <div class="col-md-4 mb-2">
-                        <div class="form-group row g-2 mb-0">
-                            <div class="col">
-                                <select class="form-control shadow-none form-select form-select-xs ps-0 fw-bold" id="">
-                                    <option>03</option>
-                                </select>
-                            </div>
-                            <div class="col">
-                                <select class="form-control shadow-none form-select form-select-xs ps-0 fw-bold" id="">
-                                    <option>00</option>
-                                </select>
-                            </div>
-                            <div class="col">
-                                <select class="form-control shadow-none form-select form-select-xs ps-0 fw-bold" id="">
-                                    <option>PM</option>
-                                </select>
-                            </div>
-                            <div class="col-auto ps-1 d-flex align-items-center">
-                                <span class="text-gray small">IST(GMT + 5h 30m)</span>
-                            </div>
-                        </div>
+                        <input type="date" class="form-control form-control-sm shadow-none pt-0 ps-0 fw-bold" id="" placeholder="29/11/2021">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2 mb-2 align-self-center">
+                    <div class="col-md-2 mb-2">
                         <p class="">Auction End Date :</p>
                     </div>
                     <div class="col-md-3 mb-2">
-                        <input type="date" class="form-control shadow-none ps-0 fw-bold" id="" placeholder="29/11/2021">
-                    </div>
-                    <div class="col-md-2 offset-md-1 mb-2 align-self-center">
-                        <p class="">Auction End Time :</p>
-                    </div>
-                    <div class="col-md-4 mb-2">
-                        <div class="form-group row g-2 mb-0">
-                            <div class="col">
-                                <select class="form-control shadow-none form-select form-select-xs ps-0 fw-bold" id="">
-                                    <option>07</option>
-                                </select>
-                            </div>
-                            <div class="col">
-                                <select class="form-control shadow-none form-select form-select-xs ps-0 fw-bold" id="">
-                                    <option>00</option>
-                                </select>
-                            </div>
-                            <div class="col">
-                                <select class="form-control shadow-none form-select form-select-xs ps-0 fw-bold" id="">
-                                    <option>PM</option>
-                                </select>
-                            </div>
-                            <div class="col-auto ps-1 d-flex align-items-center">
-                                <span class="text-gray small">IST(GMT + 5h 30m)</span>
-                            </div>
-                        </div>
+                        <input type="date" class="form-control form-control-sm shadow-none pt-0 ps-0 fw-bold" id="" placeholder="29/11/2021">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2 mb-2 align-self-center">
+                    <div class="col-md-2 mb-2">
                         <p class="">Auction Item Description :</p>
                     </div>
-                    <div class="col-md-4 mb-2">
-                        <p class="fw-bold">25714, Mehabul Swami jain</p>
-                    </div>
-                    <div class="col-md-2 mb-2 align-self-center">
-                        <p class="">Pre-Bid allowed upto :</p>
-                    </div>
-                    <div class="col-md-4 mb-2">
-                        <div class="form-group row g-2 mb-0">
-                            <div class="col">
-                               <input type="text" class="form-control shadow-none ps-0 fw-bold" id="" value="1">
-                            </div>
-                            <div class="col-auto ps-1 d-flex align-items-center">
-                                <p class="fw-bold">hour before Auction Start</p>
-                            </div>
-                        </div>
+                    <div class="col-md-3 mb-2">
+                        <input type="text" class="form-control form-control-sm shadow-none pt-0 ps-0 fw-bold" id="" placeholder="25714, Mehabul Swami jain">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2 mb-2 align-self-center">
+                    <div class="col-md-2 mb-2">
                         <p class="">Buyer can outbid himself :</p>
                     </div>
-                    <div class="col-md-4 mb-2 align-self-center">
-                        <div class="col-sm-auto d-flex align-items-center">
+                    <div class="col-md-3 mb-2">
+                         <div class="col-sm-auto d-flex align-items-center">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="outbid" id="Yes" value="option1">
-                                <label class="form-check-label" for="Yes">Yes</label>
+                                <input class="form-check-input" type="radio" name="outbid3" id="Yes3" value="option1">
+                                <label class="form-check-label" for="Yes3">Yes</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="outbid" id="No" value="option2">
-                                <label class="form-check-label" for="No">No</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2 mb-2 align-self-center">
-                        <p class="">Hide seller :</p>
-                    </div>
-                    <div class="col-md-4 mb-2 align-self-center">
-                        <div class="col-sm-auto d-flex align-items-center">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="outbid2" id="Yes2" value="option1">
-                                <label class="form-check-label" for="Yes2">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="outbid2" id="No2" value="option2">
-                                <label class="form-check-label" for="No2">No</label>
+                                <input class="form-check-input" type="radio" name="outbid3" id="No3" value="option2">
+                                <label class="form-check-label" for="No3">No</label>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2 mb-2 align-self-center">
+                    <div class="col-md-2 mb-2">
                         <p class="">EMD :</p>
                     </div>
                     <div class="col-md-3 mb-2">
-                       <input type="text" class="form-control shadow-none ps-0 fw-bold" id="" value="1">
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-md-12 text-end">
-                       <button type="button" class="btn btn-sm px-3 btn-theme-outline" value="">Exit</button>
-                       <button type="button" class="btn btn-sm px-3 btn-theme" value="">Go to Auction Item Details</button>
-                       <button type="button" class="btn btn-sm px-3 btn-theme" value="">Submit</button>
+                        <input type="text" class="form-control form-control-sm shadow-none pt-0 ps-0 fw-bold" id="" placeholder="">
                     </div>
                 </div>
             </div>
         </div>
-        
+        <div class="card border-0 shadow-none mb-3">
+            <div class="card-header bg-transparent border-bottom-0">
+                <div class="row">
+                    <div class="col">
+                        <h6 class="text-theme mb-0 fw-bold">Login Details</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-2 mb-2">
+                        <p class="">Login Id :</p>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control form-control-sm shadow-none pt-0 ps-0 fw-bold" id="" placeholder="Enter Login">
+                            </div>
+                            <div class="col-auto">
+                                <a href="#" >Check Availability</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 mb-2">
+                        <p class="">To see the agreement :</p>
+                    </div>
+                    <div class="col-auto">
+                        <a href="#" >Check Availability</a>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12 text-end">
+                       <button type="button" class="btn btn-sm px-3 lh-sm btn-theme" value=""><small>Submit</small> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
