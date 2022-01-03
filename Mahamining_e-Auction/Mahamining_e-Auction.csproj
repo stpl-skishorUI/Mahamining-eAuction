@@ -110,6 +110,7 @@
     <Content Include="LiveBidding.aspx" />
     <Content Include="login.aspx" />
     <Content Include="MakePayment.aspx" />
+    <Content Include="ManageTemplateMessage.aspx" />
     <Content Include="OnlineAuctionDetails.aspx" />
     <Content Include="PaymentHistory.aspx" />
     <Content Include="PaymentStatus.aspx" />
@@ -276,6 +277,13 @@
     </Compile>
     <Compile Include="MakePayment.aspx.designer.cs">
       <DependentUpon>MakePayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageTemplateMessage.aspx.cs">
+      <DependentUpon>ManageTemplateMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageTemplateMessage.aspx.designer.cs">
+      <DependentUpon>ManageTemplateMessage.aspx</DependentUpon>
     </Compile>
     <Compile Include="OnlineAuctionDetails.aspx.cs">
       <DependentUpon>OnlineAuctionDetails.aspx</DependentUpon>

@@ -63,7 +63,12 @@
                                             <li><a href="EventListToVerifyDocument.aspx">Event List To Verify Document</a></li>
                                             <li><a href="AuctionItemDetails.aspx">Auction Item Details</a></li>
                                             <li><a href="UploadFilesPhotos.aspx">Upload Files Photos</a></li>
-                                            
+                                            <li><a href="AddApprovalLevel.aspx">Add Approval Level</a></li>
+                                            <li><a href="Agreement.aspx">Agreement</a></li>
+                                            <li><a href="DocumentsMaster.aspx">Documents Master</a></li>
+                                            <li><a href="HideBidderSeller.aspx">Hide Bidder Seller</a></li>
+                                            <li><a href="SellerRegistration.aspx">Seller Registration</a></li>
+                                            <li><a href="ManageTemplateMessage.aspx">Manage Template Message</a></li>
                                         </ul>
                                     </div>
                                 </li>

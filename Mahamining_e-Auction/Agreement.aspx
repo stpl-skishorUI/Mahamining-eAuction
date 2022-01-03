@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="Agreement.aspx.cs" Inherits="Mahamining_e_Auction.Agreement" %>
+﻿<%@ Page Title="Agreement" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="Agreement.aspx.cs" Inherits="Mahamining_e_Auction.Agreement" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
