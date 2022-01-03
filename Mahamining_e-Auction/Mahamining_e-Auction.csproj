@@ -70,6 +70,7 @@
     <Content Include="AddApprovalLevel.aspx" />
     <Content Include="Agreement.aspx" />
     <Content Include="ApplyDigitalCertificate.aspx" />
+    <Content Include="ApproverRegistration.aspx" />
     <Content Include="AuctionItemDetails.aspx" />
     <Content Include="AuctionReport.aspx" />
     <Content Include="BidderRegistration.aspx" />
@@ -152,6 +153,13 @@
     </Compile>
     <Compile Include="ApplyDigitalCertificate.aspx.designer.cs">
       <DependentUpon>ApplyDigitalCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApproverRegistration.aspx.cs">
+      <DependentUpon>ApproverRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApproverRegistration.aspx.designer.cs">
+      <DependentUpon>ApproverRegistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="AuctionItemDetails.aspx.cs">
       <DependentUpon>AuctionItemDetails.aspx</DependentUpon>
