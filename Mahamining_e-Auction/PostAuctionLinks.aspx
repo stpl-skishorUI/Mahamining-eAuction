@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="PostAuctionLinks.aspx.cs" Inherits="Mahamining_e_Auction.PostAuctionLinks" %>
+﻿<%@ Page Title="Post Auction Links" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="PostAuctionLinks.aspx.cs" Inherits="Mahamining_e_Auction.PostAuctionLinks" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
