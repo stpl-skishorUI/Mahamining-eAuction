@@ -74,6 +74,7 @@
     <Content Include="AuctionItemDetails.aspx" />
     <Content Include="AuctionReport.aspx" />
     <Content Include="BidderRegistration.aspx" />
+    <Content Include="BidHistory.aspx" />
     <Content Include="ChangePassword.aspx" />
     <Content Include="css\GeneratedDemandNote.css" />
     <Content Include="css\Sidebar.css" />
@@ -107,11 +108,13 @@
     <Content Include="images\revenue_department2.png" />
     <Content Include="images\ShauryaTechnosoftLogoSmall.png" />
     <Content Include="images\wallet_2.svg" />
+    <Content Include="IPRestriction.aspx" />
     <Content Include="js\jquery-2.1.1.min.js" />
     <Content Include="js\Sidebar.js" />
     <Content Include="LiveBidding.aspx" />
     <Content Include="login.aspx" />
     <Content Include="MakePayment.aspx" />
+    <Content Include="ManageCommonMessage.aspx" />
     <Content Include="ManageTemplateMessage.aspx" />
     <Content Include="OnlineAuctionDetails.aspx" />
     <Content Include="PaymentHistory.aspx" />
@@ -182,6 +185,13 @@
     </Compile>
     <Compile Include="BidderRegistration.aspx.designer.cs">
       <DependentUpon>BidderRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BidHistory.aspx.cs">
+      <DependentUpon>BidHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BidHistory.aspx.designer.cs">
+      <DependentUpon>BidHistory.aspx</DependentUpon>
     </Compile>
     <Compile Include="ChangePassword.aspx.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
@@ -274,6 +284,13 @@
     <Compile Include="HighestAuctionReport.aspx.designer.cs">
       <DependentUpon>HighestAuctionReport.aspx</DependentUpon>
     </Compile>
+    <Compile Include="IPRestriction.aspx.cs">
+      <DependentUpon>IPRestriction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IPRestriction.aspx.designer.cs">
+      <DependentUpon>IPRestriction.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LiveBidding.aspx.cs">
       <DependentUpon>LiveBidding.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -294,6 +311,13 @@
     </Compile>
     <Compile Include="MakePayment.aspx.designer.cs">
       <DependentUpon>MakePayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCommonMessage.aspx.cs">
+      <DependentUpon>ManageCommonMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageCommonMessage.aspx.designer.cs">
+      <DependentUpon>ManageCommonMessage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManageTemplateMessage.aspx.cs">
       <DependentUpon>ManageTemplateMessage.aspx</DependentUpon>

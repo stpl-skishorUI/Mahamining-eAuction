@@ -191,7 +191,8 @@
 
 .sidebar-wrapper .sidebar-menu {
     padding-bottom: 10px;
-    height: calc(100vh - 132.73px);
+    /*height: calc(100vh - 132.73px);*/
+    height: calc(100vh - 72.73px);
     overflow-y: auto;
 }
 

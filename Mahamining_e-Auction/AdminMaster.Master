@@ -70,6 +70,10 @@
                                             <li><a href="SellerRegistration.aspx">Seller Registration</a></li>
                                             <li><a href="ManageTemplateMessage.aspx">Manage Template Message</a></li>
                                             <li><a href="PostAuctionLinks.aspx">Post Auction Links</a></li>
+                                            <li><a href="ApproverRegistration.aspx">Approver Registration</a></li>
+                                            <li><a href="HighestAuctionReport.aspx">Highest Auction Report</a></li>
+                                            <li><a href="IPRestriction.aspx">IP Restriction</a></li>
+                                            <li><a href="ManageCommonMessage.aspx">Manage Common Message</a></li>
                                         </ul>
                                     </div>
                                 </li>
