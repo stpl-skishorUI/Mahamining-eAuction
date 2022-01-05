@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
     <div class="paymentCards">
         <div class="card border-0 shadow-none">
-            <div class="card-header bg-transparent border-bottom-0">
+            <div class="card-header bg-transparent">
                 <div class="row">
                     <div class="col">
                         <h6 class="text-theme mb-0 fw-bold">Add/Edit Event Document Master</h6>

@@ -73,6 +73,7 @@
     <Content Include="ApproverRegistration.aspx" />
     <Content Include="AuctionItemDetails.aspx" />
     <Content Include="AuctionReport.aspx" />
+    <Content Include="BidderAgreementReport.aspx" />
     <Content Include="BidderRegistration.aspx" />
     <Content Include="BidHistory.aspx" />
     <Content Include="ChangePassword.aspx" />
@@ -179,6 +180,13 @@
     </Compile>
     <Compile Include="AuctionReport.aspx.designer.cs">
       <DependentUpon>AuctionReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BidderAgreementReport.aspx.cs">
+      <DependentUpon>BidderAgreementReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BidderAgreementReport.aspx.designer.cs">
+      <DependentUpon>BidderAgreementReport.aspx</DependentUpon>
     </Compile>
     <Compile Include="BidderRegistration.aspx.cs">
       <DependentUpon>BidderRegistration.aspx</DependentUpon>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="MessageSendToAll.aspx.cs" Inherits="Mahamining_e_Auction.MessageSendToAll" %>
+﻿<%@ Page Title="Message Send To All" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="MessageSendToAll.aspx.cs" Inherits="Mahamining_e_Auction.MessageSendToAll" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
