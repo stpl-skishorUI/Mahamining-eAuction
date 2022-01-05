@@ -116,6 +116,7 @@
     <Content Include="MakePayment.aspx" />
     <Content Include="ManageCommonMessage.aspx" />
     <Content Include="ManageTemplateMessage.aspx" />
+    <Content Include="MessageSendToAll.aspx" />
     <Content Include="OnlineAuctionDetails.aspx" />
     <Content Include="PaymentHistory.aspx" />
     <Content Include="PaymentStatus.aspx" />
@@ -325,6 +326,13 @@
     </Compile>
     <Compile Include="ManageTemplateMessage.aspx.designer.cs">
       <DependentUpon>ManageTemplateMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MessageSendToAll.aspx.cs">
+      <DependentUpon>MessageSendToAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MessageSendToAll.aspx.designer.cs">
+      <DependentUpon>MessageSendToAll.aspx</DependentUpon>
     </Compile>
     <Compile Include="OnlineAuctionDetails.aspx.cs">
       <DependentUpon>OnlineAuctionDetails.aspx</DependentUpon>
