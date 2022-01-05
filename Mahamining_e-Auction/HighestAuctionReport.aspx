@@ -18,7 +18,7 @@
             <div class="card-body">
                 <div class="row mt-md-2">
                     <div class="col-md-auto mb-2">
-                        <p class="">Enter Event ID :</p>
+                        <p class="">Event ID :</p>
                     </div>
                     <div class="col-md-2 mb-2">
                         <select class="form-control shadow-none form-select form-select-xs pt-0 ps-0 fw-bold" id="">

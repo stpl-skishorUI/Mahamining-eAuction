@@ -86,7 +86,6 @@
                                         <td class="text-center"><a href="#" class="text-blue text-decoration-none"><i class="fa fa-edit"></i></a></td>
                                         <td class="text-center"><a href="#" class="text-danger text-decoration-none"><i class="fa fa-trash"></i></a></td>
                                     </tr>
-
                                 </tbody>
                             </table>
                         </div>
