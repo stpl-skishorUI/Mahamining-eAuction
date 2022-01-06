@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="AddApprovalLevel.aspx" />
     <Content Include="Agreement.aspx" />
+    <Content Include="ApplyAutoBid.aspx" />
     <Content Include="ApplyDigitalCertificate.aspx" />
     <Content Include="ApproverRegistration.aspx" />
     <Content Include="AuctionItemDetails.aspx" />
@@ -113,6 +114,7 @@
     <Content Include="IPRestriction.aspx" />
     <Content Include="js\jquery-2.1.1.min.js" />
     <Content Include="js\Sidebar.js" />
+    <Content Include="LastMinutesAutoExtension.aspx" />
     <Content Include="LiveBidding.aspx" />
     <Content Include="login.aspx" />
     <Content Include="MakePayment.aspx" />
@@ -154,6 +156,13 @@
     </Compile>
     <Compile Include="Agreement.aspx.designer.cs">
       <DependentUpon>Agreement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyAutoBid.aspx.cs">
+      <DependentUpon>ApplyAutoBid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyAutoBid.aspx.designer.cs">
+      <DependentUpon>ApplyAutoBid.aspx</DependentUpon>
     </Compile>
     <Compile Include="ApplyDigitalCertificate.aspx.cs">
       <DependentUpon>ApplyDigitalCertificate.aspx</DependentUpon>
@@ -308,6 +317,13 @@
     </Compile>
     <Compile Include="IPRestriction.aspx.designer.cs">
       <DependentUpon>IPRestriction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LastMinutesAutoExtension.aspx.cs">
+      <DependentUpon>LastMinutesAutoExtension.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LastMinutesAutoExtension.aspx.designer.cs">
+      <DependentUpon>LastMinutesAutoExtension.aspx</DependentUpon>
     </Compile>
     <Compile Include="LiveBidding.aspx.cs">
       <DependentUpon>LiveBidding.aspx</DependentUpon>
