@@ -74,6 +74,10 @@
                                             <li><a href="HighestAuctionReport.aspx">Highest Auction Report</a></li>
                                             <li><a href="IPRestriction.aspx">IP Restriction</a></li>
                                             <li><a href="ManageCommonMessage.aspx">Manage Common Message</a></li>
+                                            <li><a href="BidHistory.aspx">Bid History</a></li>
+                                            <li><a href="MessageSendToAll.aspx">Message Send To All</a></li>
+                                            <li><a href="BidderAgreementReport.aspx">Bidder Agreement Report</a></li>
+                                            <li><a href="dd.aspx">age</a></li>
                                         </ul>
                                     </div>
                                 </li>
