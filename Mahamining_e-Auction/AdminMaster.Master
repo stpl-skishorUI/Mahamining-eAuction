@@ -54,6 +54,103 @@
                                 </li>
                                 <li class="sidebar-dropdown">
                                     <a href="#" title="Masters">
+                                        <i class="fas fa-calendar-day"></i>
+                                        <span class="menu-text">Event Approval</span>
+                                    </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="#">Approve Event</a></li>
+                                            <li><a href="#">Publish Event</a></li>
+                                            <li><a href="OnlineAuctionDetails.aspx">Online Item Details</a></li>
+                                            <li><a href="EventListToVerifyDocument.aspx">Documents Verification</a></li>
+                                            <li><a href="#">Approve Tender</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
+                                        <i class="fas fa-user-tag"></i>
+                                        <span class="menu-text">Seller</span>
+                                    </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="AddApprovalLevel.aspx">Add Approval Level</a></li>
+                                            <li><a href="Agreement.aspx">Agreement</a></li>
+                                            <li><a href="HideBidderSeller.aspx">Hide Bidder/seller</a></li>
+                                            <li><a href="DocumentsMaster.aspx">Documents Master</a></li>
+                                            <li><a href="SellerRegistration.aspx">Seller Registration</a></li>
+                                            <li><a href="ApproverRegistration.aspx">Approver Registration</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
+                                        <i class="fas fa-user-tag"></i>
+                                        <span class="menu-text">Buyer</span>
+                                    </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="IPRestriction.aspx">Approver Registration</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
+                                        <i class="fas fa-gavel"></i>
+                                        <span class="menu-text">Auction Links</span>
+                                    </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="ScreenDuringAuction.aspx">Screen During Auction</a></li>
+                                            <li><a href="AuctionReset.aspx">Auction Reset</a></li>
+                                            <li><a href="LastMinutesAutoExtension.aspx">Last Minutes Auto Ext</a></li>
+                                            <li><a href="ApplyAutoBid.aspx">Apply Autobid</a></li>
+                                            <li><a href="#">Apply Digital Certificate</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
+                                        <i class="fas fa-comment-dots"></i>
+                                        <span class="menu-text">Auction Message</span>
+                                    </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="ManageTemplateMessage.aspx">Manage Template Msg</a></li>
+                                            <li><a href="#">General Messages</a></li>
+                                            <li><a href="ManageCommonMessage.aspx">Common Messages</a></li>
+                                            <li><a href="MessageSendToAll.aspx">Message Send To All</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
+                                        <i class="fas fa-file-invoice"></i>
+                                        <span class="menu-text">Auction Reports</span>
+                                    </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="PostAuctionLinks.aspx">Post Auction Links</a></li>
+                                            <li><a href="HighestAuctionReport.aspx">Highest Auction Report</a></li>
+                                            <li><a href="BidHistory.aspx">Bid History</a></li>
+                                            <li><a href="BidderAgreementReport.aspx">Bidder Agreement Report</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
+                                        <i class="fas fa-file-invoice"></i>
+                                        <span class="menu-text">Tender Reports</span>
+                                    </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="#">Post Auction Links</a></li>
+                                            <li><a href="#">Highest Auction Report</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <%--<li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
                                         <i class="fas fa-database"></i>
                                         <span class="menu-text">Approver Section</span>
                                     </a>
@@ -82,7 +179,8 @@
                                             <li><a href="LastMinutesAutoExtension.aspx">Last Minutes Auto Extension</a></li>
                                         </ul>
                                     </div>
-                                </li>
+                                </li>--%>
+
                                 <li class="active-new">
                                     <a title="Main Dashboard" href="eAuction.aspx">
                                         <i class="fas fa-star"></i>

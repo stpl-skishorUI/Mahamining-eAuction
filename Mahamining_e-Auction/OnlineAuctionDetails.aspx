@@ -66,7 +66,7 @@
                                 <td scope="row" class="text-center">1</td>
                                 <td>EVT202011230001</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">A21110004</a>
+                                    <a href="AuctionItemDetails.aspx" class="text-blue text-decoration-none">A21110004</a>
                                 </td>
                                 <td>Auction</td>
                                 <td>Demoauction</td>
@@ -76,14 +76,14 @@
                                     <br />
                                     01:00:00</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">Upload File</a>
+                                    <a href="UploadFilesPhotos.aspx" class="text-blue text-decoration-none">Upload File</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td scope="row" class="text-center">2</td>
                                 <td>EVT202011230001</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">A21110004</a>
+                                    <a href="AuctionItemDetails.aspx" class="text-blue text-decoration-none">A21110004</a>
                                 </td>
                                 <td>Auction</td>
                                 <td>Demoauction</td>
@@ -93,14 +93,14 @@
                                     <br />
                                     01:00:00</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">Upload File</a>
+                                    <a href="UploadFilesPhotos.aspx" class="text-blue text-decoration-none">Upload File</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td scope="row" class="text-center">3</td>
                                 <td>EVT202011230001</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">A21110004</a>
+                                    <a href="AuctionItemDetails.aspx" class="text-blue text-decoration-none">A21110004</a>
                                 </td>
                                 <td>Auction</td>
                                 <td>Demoauction</td>
@@ -110,14 +110,14 @@
                                     <br />
                                     01:00:00</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">Upload File</a>
+                                    <a href="UploadFilesPhotos.aspx" class="text-blue text-decoration-none">Upload File</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td scope="row" class="text-center">4</td>
                                 <td>EVT202011230001</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">A21110004</a>
+                                    <a href="AuctionItemDetails.aspx" class="text-blue text-decoration-none">A21110004</a>
                                 </td>
                                 <td>Auction</td>
                                 <td>Demoauction</td>
@@ -127,14 +127,14 @@
                                     <br />
                                     01:00:00</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">Upload File</a>
+                                    <a href="UploadFilesPhotos.aspx" class="text-blue text-decoration-none">Upload File</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td scope="row" class="text-center">5</td>
                                 <td>EVT202011230001</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">A21110004</a>
+                                    <a href="AuctionItemDetails.aspx" class="text-blue text-decoration-none">A21110004</a>
                                 </td>
                                 <td>Auction</td>
                                 <td>Demoauction</td>
@@ -144,14 +144,14 @@
                                     <br />
                                     01:00:00</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">Upload File</a>
+                                    <a href="UploadFilesPhotos.aspx" class="text-blue text-decoration-none">Upload File</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td scope="row" class="text-center">6</td>
                                 <td>EVT202011230001</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">A21110004</a>
+                                    <a href="AuctionItemDetails.aspx" class="text-blue text-decoration-none">A21110004</a>
                                 </td>
                                 <td>Auction</td>
                                 <td>Demoauction</td>
@@ -161,14 +161,14 @@
                                     <br />
                                     01:00:00</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">Upload File</a>
+                                    <a href="UploadFilesPhotos.aspx" class="text-blue text-decoration-none">Upload File</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td scope="row" class="text-center">7</td>
                                 <td>EVT202011230001</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">A21110004</a>
+                                    <a href="AuctionItemDetails.aspx" class="text-blue text-decoration-none">A21110004</a>
                                 </td>
                                 <td>Auction</td>
                                 <td>Demoauction</td>
@@ -178,14 +178,14 @@
                                     <br />
                                     01:00:00</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">Upload File</a>
+                                    <a href="UploadFilesPhotos.aspx" class="text-blue text-decoration-none">Upload File</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td scope="row" class="text-center">8</td>
                                 <td>EVT202011230001</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">A21110004</a>
+                                    <a href="AuctionItemDetails.aspx" class="text-blue text-decoration-none">A21110004</a>
                                 </td>
                                 <td>Auction</td>
                                 <td>Demoauction</td>
@@ -195,7 +195,7 @@
                                     <br />
                                     01:00:00</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">Upload File</a>
+                                    <a href="UploadFilesPhotos.aspx" class="text-blue text-decoration-none">Upload File</a>
                                 </td>
                             </tr>
                             
