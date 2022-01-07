@@ -178,14 +178,12 @@
                                             <%--<li><a href="SellerEditProfile.aspx">Edit Profile</a></li>--%>
                                             <li><a href="ChangePassword.aspx">Change Password</a></li>  <%--ChangePassword.aspx--%>
 
-
-
-                                            <li><a href="EventCreation.aspx">Event Creation</a></li>
+                                            <%--<li><a href="EventCreation.aspx">Event Creation</a></li>
                                             <li><a href="SellerAgreement.aspx">Seller Agreement</a></li>
                                             <li><a href="SellerAgreementDocumentList.aspx">Seller Doc. List</a></li>
                                             <li><a href="EventList.aspx">Event List</a></li>
                                             <li><a href="AuctionReport.aspx">Auction Report</a></li>
-                                            <li><a href="DocumentVerificationList.aspx">Document Verification List</a></li>
+                                            <li><a href="DocumentVerificationList.aspx">Document Verification List</a></li>--%>
                                         </ul>
                                     </div>
                                 </li>
