@@ -78,27 +78,27 @@
             </div>--%>
         </div>
         <h5 class="text-theme mb-3">Bank Statement</h5>
-        <div class="col-md-5 mb-3">
+        <div class="col-md-auto mb-3">
             <div class="row g-2 dash_filter">
-                <div class="col-sm">
+                <div class="col-sm-auto">
                     <div class="input-group">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">From Date</span>
+                            <span class="input-group-text">From</span>
                         </div>
-                        <input type="text" placeholder="" class="form-control ml-0 hasDatepicker" data-entry="fromDate" autocomplete="off" id="dp1639557536300">
+                        <input type="date" placeholder="" class="form-control ml-0 hasDatepicker" data-entry="fromDate" autocomplete="off" id="">
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm-auto">
                     <div class="input-group">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">To Date</span>
+                            <span class="input-group-text">To</span>
                         </div>
-                        <input type="text" placeholder="" class="form-control ml-0 hasDatepicker" data-entry="fromDate" autocomplete="off" id="dp1639557536300">
+                        <input type="date" placeholder="" class="form-control ml-0 hasDatepicker" data-entry="fromDate" autocomplete="off" id="">
                     </div>
                 </div>
 
-                <div class="col-sm-auto">
-                    <button type="button" class="btn btn-sm btn-theme px-4">Search </button>
+                <div class="col-sm-auto align-self-center">
+                    <button type="button" class="btn btn-sm btn-theme px-3">Search </button>
                 </div>
             </div>
         </div>

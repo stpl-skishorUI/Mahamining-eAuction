@@ -73,7 +73,7 @@
                             <tr>
                                 <td scope="row" class="text-center">1</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">EVT202011230001</a>
+                                    <a href="DocumentVerificationList.aspx" class="text-blue text-decoration-none">EVT202011230001</a>
                                 </td>
                                 <td>First Tender</td>
                                 <td>500</td>
@@ -93,7 +93,7 @@
                             <tr>
                                 <td scope="row" class="text-center">2</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">EVT202011230002</a>
+                                    <a href="DocumentVerificationList.aspx" class="text-blue text-decoration-none">EVT202011230002</a>
                                 </td>
                                 <td>First Tender</td>
                                 <td>500</td>
@@ -113,7 +113,7 @@
                             <tr>
                                 <td scope="row" class="text-center">3</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">EVT202011230003</a>
+                                    <a href="DocumentVerificationList.aspx" class="text-blue text-decoration-none">EVT202011230003</a>
                                 </td>
                                 <td>First Tender</td>
                                 <td>500</td>
@@ -133,7 +133,7 @@
                             <tr>
                                 <td scope="row" class="text-center">4</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">EVT202011230004</a>
+                                    <a href="DocumentVerificationList.aspx" class="text-blue text-decoration-none">EVT202011230004</a>
                                 </td>
                                 <td>First Tender</td>
                                 <td>500</td>
@@ -153,7 +153,7 @@
                             <tr>
                                 <td scope="row" class="text-center">5</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">EVT202011230005</a>
+                                    <a href="DocumentVerificationList.aspx" class="text-blue text-decoration-none">EVT202011230005</a>
                                 </td>
                                 <td>First Tender</td>
                                 <td>500</td>
@@ -173,7 +173,7 @@
                             <tr>
                                 <td scope="row" class="text-center">6</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">EVT202011230006</a>
+                                    <a href="DocumentVerificationList.aspx" class="text-blue text-decoration-none">EVT202011230006</a>
                                 </td>
                                 <td>First Tender</td>
                                 <td>500</td>
@@ -193,7 +193,7 @@
                             <tr>
                                 <td scope="row" class="text-center">7</td>
                                 <td>
-                                    <a href="#" class="text-blue text-decoration-none">EVT202011230007</a>
+                                    <a href="DocumentVerificationList.aspx" class="text-blue text-decoration-none">EVT202011230007</a>
                                 </td>
                                 <td>First Tender</td>
                                 <td>500</td>

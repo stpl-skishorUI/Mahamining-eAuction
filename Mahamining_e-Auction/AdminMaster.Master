@@ -175,14 +175,32 @@
                                     <div class="sidebar-submenu">
                                         <ul>
                                             <li><a href="SellerProfile.aspx">Profile</a></li>
-                                            <li><a href="SellerEditProfile.aspx">Edit Profile</a></li>
+                                            <%--<li><a href="SellerEditProfile.aspx">Edit Profile</a></li>--%>
                                             <li><a href="ChangePassword.aspx">Change Password</a></li>  <%--ChangePassword.aspx--%>
+
+
+
                                             <li><a href="EventCreation.aspx">Event Creation</a></li>
                                             <li><a href="SellerAgreement.aspx">Seller Agreement</a></li>
                                             <li><a href="SellerAgreementDocumentList.aspx">Seller Doc. List</a></li>
                                             <li><a href="EventList.aspx">Event List</a></li>
                                             <li><a href="AuctionReport.aspx">Auction Report</a></li>
                                             <li><a href="DocumentVerificationList.aspx">Document Verification List</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
+                                        <i class="fas fa-database"></i>
+                                        <span class="menu-text">Event Section</span>
+                                    </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="EventCreation.aspx">Event Upload</a></li>
+                                            <li><a href="SellerAgreement.aspx">Lots Upload</a></li>
+                                            <li><a href="EventList.aspx">Event List</a></li>
+                                            <li><a href="SellerAgreementDocumentList.aspx">Seller Doc. List</a></li>
+                                            <li><a href="AuctionReport.aspx">Auction Report</a></li>
                                         </ul>
                                     </div>
                                 </li>

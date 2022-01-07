@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="SellerAgreement.aspx.cs" Inherits="Mahamining_e_Auction.SellerAgreement" %>
+﻿<%@ Page Title="Lots Upload" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="SellerAgreement.aspx.cs" Inherits="Mahamining_e_Auction.SellerAgreement" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -342,7 +342,7 @@
                             </table>
                         </div>
                         <div class="text-end">
-                            <button type="button" class="btn btn-sm px-3 btn-theme" data-bs-toggle="modal" data-bs-target="#SelectPlot"><span class="">Proceed to Document List</span> </button>
+                            <a href="SellerAgreementDocumentList.aspx" class="btn btn-sm px-3 btn-theme"><span class="">Proceed to Document List</span> </a>
                         </div>
                     </div>
                 </div>
