@@ -99,7 +99,15 @@
     <Content Include="images\bg26.jpg" />
     <Content Include="images\camera1.svg" />
     <Content Include="images\gras_payment_SUCCESS.png" />
+    <Content Include="images\icons\BidWon.svg" />
+    <Content Include="images\icons\Calendar.svg" />
+    <Content Include="images\icons\Description.svg" />
+    <Content Include="images\icons\District.svg" />
+    <Content Include="images\icons\EventId.svg" />
+    <Content Include="images\icons\EventLevel.svg" />
     <Content Include="images\icons\TenderPuchased.svg" />
+    <Content Include="images\icons\TenderPurchased2.svg" />
+    <Content Include="images\icons\title.svg" />
     <Content Include="images\icons\TotalParticipotedEvents.svg" />
     <Content Include="images\icons\TotalPaymentCompleted.svg" />
     <Content Include="images\icons\TotalPoltAuctionsBidsWon.svg" />
@@ -110,6 +118,7 @@
     <Content Include="images\revenue_department.png" />
     <Content Include="images\revenue_department2.png" />
     <Content Include="images\ShauryaTechnosoftLogoSmall.png" />
+    <Content Include="images\WalletBalance.svg" />
     <Content Include="images\wallet_2.svg" />
     <Content Include="IPRestriction.aspx" />
     <Content Include="js\jquery-2.1.1.min.js" />
