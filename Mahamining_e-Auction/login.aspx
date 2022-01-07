@@ -124,7 +124,8 @@
                 </div>--%>
             </div>
             <div class="form-group text-center">
-                <button type="submit" id="loginuser" class="btn-login">Login</button>
+                <%--<button type="submit" id="loginuser" class="btn-login">Login</button>--%>
+                <a href="eAuction.aspx" class="btn-login text-decoration-none">Login</a>
             </div>
         </div>
     </div>
