@@ -15,7 +15,6 @@
     <link href="css/Sidebar.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -33,25 +32,13 @@
                     <div class="sidebar-item sidebar-menu">
                         <div id="_Menu">
                             <ul>
-                                <li class="sidebar-dropdown">
-                                    <a href="#" title="Masters">
-                                        <i class="fas fa-database"></i>
-                                        <span class="menu-text">Seller Section</span>
+                                <li class="active-new">
+                                    <a title="Main Dashboard" href="eAuction.aspx">
+                                        <i class="fas fa-star"></i>
+                                        <span class="menu-text">Dashboard</span>
                                     </a>
-                                    <div class="sidebar-submenu">
-                                        <ul>
-                                            <li><a href="SellerProfile.aspx">Profile</a></li>
-                                            <li><a href="SellerEditProfile.aspx">Edit Profile</a></li>
-                                            <li><a href="ChangePassword.aspx">Change Password</a></li>
-                                            <li><a href="EventCreation.aspx">Event Creation</a></li>
-                                            <li><a href="SellerAgreement.aspx">Seller Agreement</a></li>
-                                            <li><a href="SellerAgreementDocumentList.aspx">Seller Doc. List</a></li>
-                                            <li><a href="EventList.aspx">Event List</a></li>
-                                            <li><a href="AuctionReport.aspx">Auction Report</a></li>
-                                            <li><a href="DocumentVerificationList.aspx">Document Verification List</a></li>
-                                        </ul>
-                                    </div>
                                 </li>
+                                
                                 <li class="sidebar-dropdown">
                                     <a href="#" title="Masters">
                                         <i class="fas fa-calendar-day"></i>
@@ -180,12 +167,24 @@
                                         </ul>
                                     </div>
                                 </li>--%>
-
-                                <li class="active-new">
-                                    <a title="Main Dashboard" href="eAuction.aspx">
-                                        <i class="fas fa-star"></i>
-                                        <span class="menu-text">Dashboard</span>
+                                <li class="sidebar-dropdown">
+                                    <a href="#" title="Masters">
+                                        <i class="fas fa-database"></i>
+                                        <span class="menu-text">Seller Section</span>
                                     </a>
+                                    <div class="sidebar-submenu">
+                                        <ul>
+                                            <li><a href="SellerProfile.aspx">Profile</a></li>
+                                            <li><a href="SellerEditProfile.aspx">Edit Profile</a></li>
+                                            <li><a href="ChangePassword.aspx">Change Password</a></li>  <%--ChangePassword.aspx--%>
+                                            <li><a href="EventCreation.aspx">Event Creation</a></li>
+                                            <li><a href="SellerAgreement.aspx">Seller Agreement</a></li>
+                                            <li><a href="SellerAgreementDocumentList.aspx">Seller Doc. List</a></li>
+                                            <li><a href="EventList.aspx">Event List</a></li>
+                                            <li><a href="AuctionReport.aspx">Auction Report</a></li>
+                                            <li><a href="DocumentVerificationList.aspx">Document Verification List</a></li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li class="sidebar-dropdown">
                                     <a href="#" title="Masters">
