@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Bidder Profile" Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="BidderProfile.aspx.cs" Inherits="Mahamining_e_Auction.BidderProfile" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
-        .BidderProfileOuter{
+        /*.BidderProfileOuter{
             color: #242424;
         }
         .BidderProfileOuter img.profileImg{
@@ -19,13 +19,13 @@
             font-size: .85rem;
         }
 
-        .upload-btn-wrapper {
+        .BidderProfileOuter .upload-btn-wrapper {
           position: relative;
           overflow: hidden;
           display: inline-block;
         }
 
-        .upload-btn-wrapper input[type=file] {
+        .BidderProfileOuter .upload-btn-wrapper input[type=file] {
           font-size: 100px;
           position: absolute;
           left: 0;
@@ -54,7 +54,7 @@
             width: 1800px;
             left: 100%;
             top: calc(50% - 0.5px);
-        }
+        }*/
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
