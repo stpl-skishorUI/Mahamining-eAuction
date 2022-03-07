@@ -7,7 +7,7 @@
         <div class="card shadow-none border-0 mb-3">
             <div class="card-body event_o">
                 <div class="d-flex mb-3">
-                    <select class="form-select form-select-sm1 shadow-none pe-5 w-auto me-2" aria-label="">
+                    <select class="form-select form-select-lightBlue shadow-none pe-5 w-auto me-3 border-blue text-blue fw-500" aria-label="">
                         <option selected>EVT202012220009</option>
                         <option value="1">EVT202012220010</option>
                     </select>
@@ -131,7 +131,10 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h6 class="text-theme">Lot Details</h6>
+                        <div class="d-flex justify-content-between">
+                            <h6 class="text-theme">Lot Details</h6>
+                            <p class="mb-1 align-self-end">This frame will get refreshed in 20 seconds automatically.</p>
+                        </div> 
                         <div class="card shadow-none border-green-light px-3 mb-3 lotDetailsCard">
                             <div class="card-header bg-transparent">
                                 <div class="row">
@@ -149,7 +152,7 @@
                             <div class="card-body py-2">
                                 <div class="row">
                                     <div class="col-md">
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-4">
                                                 <p class="fw-500">Opening Price </p>
                                             </div>
@@ -157,7 +160,7 @@
                                                 <p><span class="fw-bold text-dark">: 5000.00 Rs </span></p>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-4">
                                                 <p class="fw-500">My Bid  </p>
                                             </div>
@@ -165,7 +168,7 @@
                                                 <p><span class="fw-bold text-dark">: 12000.00 RS <img src="images/ManualBid.svg" class="ms-2" width="10" /> </span></p>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-4">
                                                 <p class="fw-500">QTY </p>
                                             </div>
@@ -173,7 +176,7 @@
                                                 <p><span class="fw-bold text-dark">: 593543</span> </p>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-4">
                                                 <p class="fw-500">GST </p>
                                             </div>
@@ -183,7 +186,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md">
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-4">
                                                 <p class="fw-500">Bid Increment </p>
                                             </div>
@@ -191,7 +194,7 @@
                                                 <p><span class="fw-bold text-dark">: 100.00 Rs </span></p>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-4">
                                                 <p class="fw-500">Highest Bid  </p>
                                             </div>
@@ -199,7 +202,7 @@
                                                 <p><span class="fw-bold text-dark">: 22000.00 RS <img src="images/AutoBid.svg" class="ms-2" width="10" /> </span></p>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-4">
                                                 <p class="fw-500">SGST   </p>
                                             </div>
@@ -207,7 +210,7 @@
                                                 <p><span class="fw-bold text-dark">: NA</span> </p>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-4">
                                                 <p class="fw-500">CGST </p>
                                             </div>
@@ -217,7 +220,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-3">
                                                 <p class="fw-500">EMD  </p>
                                             </div>
@@ -225,7 +228,7 @@
                                                 <p><span class="fw-bold text-dark">: </span></p>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-3">
                                                 <p class="fw-500">UOM   </p>
                                             </div>
@@ -233,7 +236,7 @@
                                                 <p><span class="fw-bold text-dark">: Nos </span></p>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-3">
                                                 <p class="fw-500">TGS  </p>
                                             </div>
@@ -241,7 +244,7 @@
                                                 <p><span class="fw-bold text-dark">: NA</span> </p>
                                             </div>
                                         </div>
-                                        <div class="row">
+                                        <div class="row mb-1">
                                             <div class="col-sm-3">
                                                 <p class="fw-500">IGST </p>
                                             </div>
@@ -267,11 +270,11 @@
                             </div>
                             <div class="card-footer bg-transparent">
                                 <div class="row">
-                                    <div class="col-md d-flex">
+                                    <div class="col-md d-flex py-2">
                                         <input type="text" class="form-control form-control-sm1 rounded border shadow-none w-auto" id="" placeholder="Enter Bid">
-                                        <button type="button" class="btn btn-sm btn-blue shadow-none ms-3">Submit</button>
+                                        <button type="button" class="btn px-4 btn-blue shadow-none ms-3">Submit</button>
                                     </div>
-                                    <div class="col-md-3 text-end">
+                                    <div class="col-md-3 text-end align-self-center">
                                         <p class="fw-500 mb-0 text-dark d-flex justify-content-end align-items-center">Refresh  <button type="button" class="btn btn-sm btn-link px-1 shadow-none ms-1"><i class="fas fa-sync-alt"></i></button></p>
                                     </div>
                                 </div>
