@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
     <div class="paymentCards">
-        <div class="card shadow-none border-0 mb-4">
+        <div class="card shadow-none border-0 mb-3">
             <div class="card-body event_o">
                 <div class="d-flex mb-3">
                     <select class="form-select form-select-sm1 shadow-none pe-5 w-auto me-2" aria-label="">
@@ -36,7 +36,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="table-responsive eAuction-table eAuction-table-height eAuction-table-border rounded mb-5">
+                        <div class="table-responsive eAuction-table eAuction-table-height eAuction-table-border rounded mb-4">
                             <table class="mb-0 table table-hover event_table">
                                 <thead class="thead-light">
                                     <tr class="align-middle">
@@ -65,8 +65,12 @@
                                                 <%--<i class="fa fa-lg fa-angle-double-right text-success invisible"></i>--%>
                                                 <div class="scroll-prompt invisible" scroll-prompt="" ng-show="showPrompt" style="opacity: 1;">
                                                     <div class="scroll-prompt-arrow-container">
-                                                        <div class="scroll-prompt-arrow"><div></div></div>
-                                                        <div class="scroll-prompt-arrow"><div></div></div>
+                                                        <div class="scroll-prompt-arrow">
+                                                            <div></div>
+                                                        </div>
+                                                        <div class="scroll-prompt-arrow">
+                                                            <div></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -85,8 +89,12 @@
                                                 <%--<i class="fa fa-lg fa-angle-double-right text-success "></i>--%>
                                                 <div class="scroll-prompt" scroll-prompt="" ng-show="showPrompt" style="opacity: 1;">
                                                     <div class="scroll-prompt-arrow-container">
-                                                        <div class="scroll-prompt-arrow"><div></div></div>
-                                                        <div class="scroll-prompt-arrow"><div></div></div>
+                                                        <div class="scroll-prompt-arrow">
+                                                            <div></div>
+                                                        </div>
+                                                        <div class="scroll-prompt-arrow">
+                                                            <div></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -105,8 +113,12 @@
                                                 <%--<i class="fa fa-lg fa-angle-double-right text-success invisible"></i>--%>
                                                 <div class="scroll-prompt invisible" scroll-prompt="" ng-show="showPrompt" style="opacity: 1;">
                                                     <div class="scroll-prompt-arrow-container">
-                                                        <div class="scroll-prompt-arrow"><div></div></div>
-                                                        <div class="scroll-prompt-arrow"><div></div></div>
+                                                        <div class="scroll-prompt-arrow">
+                                                            <div></div>
+                                                        </div>
+                                                        <div class="scroll-prompt-arrow">
+                                                            <div></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -117,8 +129,159 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 class="text-theme">Lot Details</h6>
+                        <div class="card shadow-none border-green-light px-3 mb-3 lotDetailsCard">
+                            <div class="card-header bg-transparent">
+                                <div class="row">
+                                    <div class="col-md">
+                                        <p class="fw-500 mb-0 text-dark">Bidding ID : <span class="fw-bold text-success">B769474048 </span></p>
+                                    </div>
+                                    <div class="col-md">
+                                        <p class="fw-500 mb-0 text-dark">Item Name : <span class="fw-bold text-dark">Circular for CGM Auction </span></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="fw-500 mb-0 text-dark">Location : <span class="fw-bold ">Satara </span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body py-2">
+                                <div class="row">
+                                    <div class="col-md">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <p class="fw-500">Opening Price </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: 5000.00 Rs </span></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <p class="fw-500">My Bid  </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: 12000.00 RS <img src="images/ManualBid.svg" class="ms-2" width="10" /> </span></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <p class="fw-500">QTY </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: 593543</span> </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <p class="fw-500">GST </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: NA</span> </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <p class="fw-500">Bid Increment </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: 100.00 Rs </span></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <p class="fw-500">Highest Bid  </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: 22000.00 RS <img src="images/AutoBid.svg" class="ms-2" width="10" /> </span></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <p class="fw-500">SGST   </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: NA</span> </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <p class="fw-500">CGST </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: NA</span> </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <p class="fw-500">EMD  </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: </span></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <p class="fw-500">UOM   </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: Nos </span></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <p class="fw-500">TGS  </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: NA</span> </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <p class="fw-500">IGST </p>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <p><span class="fw-bold text-dark">: NA</span> </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-transparent">
+                                <div class="row">
+                                    <div class="col-md">
+                                        <p class="fw-500 mb-0 text-dark">Start Time : <span class="fw-bold text-blue">1:00:00 PM </span></p>
+                                    </div>
+                                    <div class="col-md">
+                                        <p class="fw-500 mb-0 text-dark">Rank : <span class="fw-bold text-blue">4 </span></p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p class="fw-500 mb-0 text-dark">End Time : <span class="fw-bold text-blue">11 :00:00 AM</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-transparent">
+                                <div class="row">
+                                    <div class="col-md d-flex">
+                                        <input type="text" class="form-control form-control-sm1 rounded border shadow-none w-auto" id="" placeholder="Enter Bid">
+                                        <button type="button" class="btn btn-sm btn-blue shadow-none ms-3">Submit</button>
+                                    </div>
+                                    <div class="col-md-3 text-end">
+                                        <p class="fw-500 mb-0 text-dark d-flex justify-content-end align-items-center">Refresh  <button type="button" class="btn btn-sm btn-link px-1 shadow-none ms-1"><i class="fas fa-sync-alt"></i></button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
 
 
 

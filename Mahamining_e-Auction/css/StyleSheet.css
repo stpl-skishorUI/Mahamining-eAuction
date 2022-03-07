@@ -16,6 +16,7 @@
     --gray-color: #777474;
     --purple-light-color: #4680FF;
     --purple-dark-color: #2962e1;
+    --green-light-color: #A6DBA2;
 }
 
 .text-theme {
@@ -40,6 +41,12 @@
 
 .text-gray {
     color: var(--gray-color);
+}
+.text-green-light {
+    color: var(--green-light-color);
+}
+.border-green-light {
+    border-color: var(--green-light-color);
 }
 
 .w-100px {
@@ -67,7 +74,7 @@
 }
 
 .fs-7 {
-    font-size: .85rem !important;
+    font-size: .85rem !important; /*reserved for data input lable*/
 }
 
 .btn-green {
@@ -1490,7 +1497,7 @@ table.event_table {
 
 .event_table.table td, .event_table.table th {
     /*color: #2680EB;*/
-    font-size: .78rem;
+   /* font-size: .78rem;*/ /*commented for livebidding table font-size*/
     font-weight: 500;
 }
 
@@ -1704,6 +1711,12 @@ table.event_table {
     box-shadow: 0px 3px 6px #24599126;
     border-radius: 6px;
 }
+    .paymentCards .card.lotDetailsCard {
+        font-size: .85rem;
+    }
+     .paymentCards .card.lotDetailsCard img{
+        width: 10px;
+    }
 
     .paymentCards .card p {
         margin-bottom: 2px;
