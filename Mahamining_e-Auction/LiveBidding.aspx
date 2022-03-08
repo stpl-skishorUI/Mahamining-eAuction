@@ -139,7 +139,7 @@
                             <div class="card-header bg-transparent">
                                 <div class="row">
                                     <div class="col-md">
-                                        <p class="fw-500 mb-0 text-dark">Bidding ID : <span class="fw-bold text-success">B769474048 </span></p>
+                                        <p class="fw-500 mb-0 text-dark">Bidding ID : <span class="fw-bold text-green-dark">B769474048 </span></p>
                                     </div>
                                     <div class="col-md">
                                         <p class="fw-500 mb-0 text-dark">Item Name : <span class="fw-bold text-dark">Circular for CGM Auction </span></p>
